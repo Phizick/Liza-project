@@ -1,0 +1,7 @@
+.list-item__title {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 32px;
+    max-width: 328px;
+}

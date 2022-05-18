@@ -1,0 +1,12 @@
+.buttons__btn-back {
+    width: 184px;
+    height: 48px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.2px solid #E6E7EB;
+    color: #FF6600;
+    background: #fff;
+    margin-right: 24px;
+}
