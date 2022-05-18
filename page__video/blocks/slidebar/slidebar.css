@@ -1,8 +1,0 @@
-.slidebar {
-    max-width: 424px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6), 0px 4px 16px rgba(231, 232, 235, 0.6);
-    border-radius: 16px;
-    margin-bottom: 97px;
-}
