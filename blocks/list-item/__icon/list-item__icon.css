@@ -1,0 +1,10 @@
+.list-item__icon {
+    background-image: url(../../../images/icons/slide_down.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    transition: .2s;
+}
+
