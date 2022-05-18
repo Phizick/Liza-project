@@ -1,0 +1,4 @@
+.breadcrumb__container {
+    display: flex;
+    gap: 9px;
+}
