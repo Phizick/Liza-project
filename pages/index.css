@@ -2,8 +2,8 @@
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__title/header__title.css";
-@import "../blocks/header/__nav/header__nav.css";
-@import "../blocks/header/__link/header__link.css";
+@import "../blocks/nav/nav.css";
+@import "../blocks/nav/__item-link/nav__item-link.css";
 @import "../blocks/content/content.css";
 @import "../blocks/content/__frame/content__frame.css";
 @import "../blocks/nav/__item/nav__item.css";
@@ -24,4 +24,21 @@
 @import "../blocks/item/__icon-video/item__icon-video.css";
 @import "../blocks/items/__list/_active/items__list_active.css";
 @import "../blocks/list-item/__icon/_active/list-item__icon_active.css";
-@import "../blocks/item/__text/_target/item__text_target.css"
+@import "../blocks/item/__text/_target/item__text_target.css";
+@import "../blocks/breadcrumb/breadcrumb.css";
+@import "../blocks/breadcrumb/__title/_active/breadcrumb__title_active.css";
+@import "../blocks/breadcrumb/__container/breadcrumb__container.css";
+@import "../blocks/buttons/__text/buttons__text.css";
+@import "../blocks/buttons/__btn-back/buttons__btn-back.css";
+@import "../blocks/buttons/__arrow-forward/buttons__arrow-forward.css";
+@import "../blocks/buttons/__arrow-back/buttons__arrow-back.css";
+@import "../blocks/buttons/__container/buttons__container.css";
+@import "../blocks/buttons/__btn-forward/buttons__btn-forward.css";
+@import "../blocks/buttons/buttons.css";
+@import "../blocks/content/content-block.css";
+@import "../blocks/content/content.css";
+
+
+
+
+
