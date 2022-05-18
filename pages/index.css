@@ -24,4 +24,6 @@
 @import "../blocks/item/__icon-video/item__icon-video.css";
 @import "../blocks/items/__list/_active/items__list_active.css";
 @import "../blocks/list-item/__icon/_active/list-item__icon_active.css";
-@import "../blocks/item/__text/_target/item__text_target.css"
+@import "../blocks/item/__text/_target/item__text_target.css";
+@import "../blocks/breadcrumb/breadcrumb.css";
+@import "../blocks/breadcrumb/__container/breadcrumb__container.css";
