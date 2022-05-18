@@ -1,0 +1,10 @@
+.content-block   {
+    min-height: 580px;
+    width: 872px;
+    max-width: 100%;
+    padding: 32px;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);
+    border-radius: 16px;
+    margin-right: 24px;
+}
