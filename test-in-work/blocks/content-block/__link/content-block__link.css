@@ -1,0 +1,13 @@
+.content-block__link {
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+    background: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    color: #212329;
+}
