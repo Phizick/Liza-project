@@ -46,7 +46,7 @@
 @import "../blocks/form/__label/form__label.css";
 @import "../blocks/form/__pseudo-item/form__pseudo-item.css";
 @import "../blocks/form/__pseudo-text/form__pseudo-text.css";
-@import "../blocks/form/__pseudo-text/_select/form__pseudo-text_select.css";
 @import "../blocks/form/__radio/form__radio.css";
 @import "../blocks/form/__checkbox/form__checkbox.css";
 @import "../blocks/buttons/__result/buttons__result.css";
+@import "../blocks/item/__icon-test/item__icon-test.css";

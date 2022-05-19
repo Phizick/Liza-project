@@ -18,12 +18,8 @@
     background-repeat: no-repeat;
 }
 
-.form__input:disabled + .form__radio {
-    border: 1px solid grey;
+
+
+.form__input:checked~.form__pseudo-text {
+    color: #F06000;
 }
-
-.form__input:disabled:checked + .form__radio {
-    background-image: url(https://code.s3.yandex.net/web-code/plane_grey.svg);
-}
-
-

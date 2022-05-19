@@ -7,10 +7,3 @@ slideBarItem.forEach(function (i) {
     }
   });
 });
-
-const Labels = document.querySelectorAll('.form__label')
-Labels.forEach(function(label) {
-  label.addEventListener('click',function() {
-    label.children[0].classList.contains('form__checkbox') || label.children[0].classList.contains('form__radio') ? label.children[0].checked ? label.children[2].classList.toggle('form__pseudo-text_select') : null : null
-  })
-})
