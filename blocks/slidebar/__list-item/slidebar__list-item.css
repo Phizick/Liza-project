@@ -1,7 +1,0 @@
-.slidebar__list-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border-top: 1px solid #e6e7eb;
-  cursor: pointer;
-}

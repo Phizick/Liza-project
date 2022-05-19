@@ -14,8 +14,21 @@
 @import "../blocks/nav/__item-icon/nav__item-icon.css";
 @import "../blocks/slidebar/slidebar.css";
 @import "../blocks/slidebar/__title/slidebar__title.css";
-@import "../blocks/slidebar/__list/slidebar__list.css";
-@import "../blocks/slidebar/__list-item/slidebar__list-item.css";
+
+@import "../blocks/slidebar-list/slidebar-list.css";
+@import "../blocks/slidebar-list/__item-header/slidebar-list__item-header.css";
+@import "../blocks/slidebar-list/__item-icon/slidebar-list__item-icon.css";
+@import "../blocks/slidebar-list/__item-title/slidebar-list__item-title.css";
+@import "../blocks/slidebar-list/__item/slidebar-list__item.css";
+@import "../blocks/items/items.css";
+@import "../blocks/items/__container-icon/items__container-icon.css";
+@import "../blocks/items/__container-icon/_target/items__container-icon_target.css";
+@import "../blocks/items/__container-icon/_video/items__container-icon_video.css";
+@import "../blocks/items/__container-text/items__container-text.css";
+@import "../blocks/items/__container-text/_target/items__container-text_target.css";
+@import "../blocks/items/__container/items__container.css";
+
+
 @import "../blocks/list-item/__title/list-item__title.css";
 @import "../blocks/list-item/__header/list-item__header.css";
 @import "../blocks/list-item/__icon/list-item__icon.css";

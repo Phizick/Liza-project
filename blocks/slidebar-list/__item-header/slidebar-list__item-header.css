@@ -1,4 +1,4 @@
-.list-item__header {
+.slidebar-list__item-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

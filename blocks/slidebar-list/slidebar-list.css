@@ -1,5 +1,6 @@
-.slidebar__list {
+.slidebar-list {
     padding: 0;
     max-width: 360px;
     margin: 0 32px 0 32px;
+    list-style-type: none;
 }

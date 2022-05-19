@@ -1,4 +1,4 @@
-.list-item__icon {
+.slidebar-list__item-icon {
     background-image: url(../../../images/icons/slide_down.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -8,3 +8,6 @@
     transition: .2s;
 }
 
+.slidebar-list__item-icon_active {
+    transform: rotate(180deg);
+}
