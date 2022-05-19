@@ -1,0 +1,11 @@
+.test__column-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+
+.test__column-item:last-of-type {
+    padding-bottom: 0;
+}

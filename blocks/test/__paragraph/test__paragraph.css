@@ -1,0 +1,9 @@
+.test__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212329;
+    margin: 0;
+    padding-bottom: 32px;
+}

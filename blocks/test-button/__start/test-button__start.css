@@ -1,0 +1,13 @@
+.test-button__start {
+    width: 184px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.2px solid #ff6600;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
