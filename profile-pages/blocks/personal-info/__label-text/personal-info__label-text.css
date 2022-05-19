@@ -1,0 +1,8 @@
+.personal-info__label-text {
+	margin: 0;
+	padding: 0;
+}
+
+.personal-info__label-text:nth-child(n) {
+	padding-left: 16px;
+}

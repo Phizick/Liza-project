@@ -1,4 +1,5 @@
 const slideBarItem = document.querySelectorAll(".slidebar-list__item");
+
 slideBarItem.forEach(function (i) {
   i.addEventListener("click", function () {
     if (i.children[1].classList.contains("items")) {

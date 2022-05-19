@@ -9,21 +9,21 @@
     </head>
     <body class="page">
         <header class="header">
-            <h1 class="header__title">Учебная платформа</h1>
-            <nav class="nav">
-                <div class="nav__item">
-                    <img src="images/icons/heat.svg" alt="" class="nav__item-icon" />
-                    <p class="nav__item-title">
-                        <a class="nav__item-link" href="#" target="_blank">Курсы</a>
-                    </p>
-                </div>
-                <div class="nav__item">
-                    <img src="images/icons/progile.svg" alt="" class="nav__item-icon" />
-                    <p class="nav__item-title">
-                        <a class="nav__item-link" href="#" target="_blank">Профиль</a>
-                    </p>
-                </div>
-            </nav>
+            <a class="header__link" target="_blank" href="#">Учебная платформа</a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a id="courses-page-link" class="menu__link menu__link_active" onclick="document.location='profile-pages/index.html'">
+                            <img class="menu__icon" src="images/icons/heat.svg" alt="Курсы">Курсы
+                        </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link" onclick="document.location='profile-pages/account.html'">
+                            <img class="menu__icon" src="images/icons/progile.svg" alt="Профиль">Профиль
+                        </a>
+                    </li>
+                </ul>
+            </nav>         
         </header>
         <section class="breadcrumb">
             <div class="breadcrumb__container">

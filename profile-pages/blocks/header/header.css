@@ -1,0 +1,20 @@
+.header {
+	box-sizing: border-box;
+	grid-area: header;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	padding: 24px 60px;
+	background-color: #fff;
+	box-shadow: 0 0 4px rgba(231, 232, 235, 0.6),
+		0 4px 16px rgba(231, 232, 235, 0.6);
+}
+
+@media (max-width: 1184px) {
+	.header {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
