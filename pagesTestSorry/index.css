@@ -1,0 +1,46 @@
+@import url('../vendor/normalize.css');
+@import url('../fonts/fonts.css');
+@import url('../blocks/page/page.css');
+/* шапка */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__title/header__title.css');
+@import url('../blocks/nav/nav.css');
+@import url('../blocks/nav/__item-link/nav__item-link.css');
+/* xлебные крошки */
+@import url('../blocks/breadcrumb/breadcrumb.css');
+@import url('../blocks/breadcrumb/__title/_active/breadcrumb__title_active.css');
+@import url('../blocks/breadcrumb/__container/breadcrumb__container.css');
+
+@import url('../blocks/content/content.css');
+@import url('../blocks/content-main/content-main.css');
+@import url('../blocks/content-block/content-block.css');
+@import url('../blocks/content-block/__wrapper/content-block__wrapper.css');
+@import url('../blocks/content-block/__title/content-block__title.css');
+@import url('../blocks/content-block/__subtitle/content-block__subtitle.css');
+@import url('../blocks/content-block/__text/content-block__text.css');
+
+@import url('../blocks/nav/__item/nav__item.css');
+@import url('../blocks/nav/__item-title/nav__item-title.css');
+@import url('../blocks/nav/__item-icon/nav__item-icon.css');
+@import url('../blocks/slidebar/slidebar.css');
+@import url('../blocks/slidebar/__title/slidebar__title.css');
+@import url('../blocks/slidebar/__list/slidebar__list.css');
+@import url('../blocks/slidebar/__list-item/slidebar__list-item.css');
+@import url('../blocks/list-item/__title/list-item__title.css');
+@import url('../blocks/list-item/__header/list-item__header.css');
+@import url('../blocks/list-item/__icon/list-item__icon.css');
+@import url('../blocks/items/__container/items__container.css');
+@import url('../blocks/item/__icon/item__icon.css');
+@import url('../blocks/item/__icon/_target/item__icon_target.css');
+@import url('../blocks/item/__icon-video/item__icon-video.css');
+@import url('../blocks/items/__list/_active/items__list_active.css');
+@import url('../blocks/list-item/__icon/_active/list-item__icon_active.css');
+@import url('../blocks/item/__text/_target/item__text_target.css');
+/* кнопки Назад и Далее */
+@import url('../blocks/buttons/__text/buttons__text.css');
+@import url('../blocks/buttons/__btn-back/buttons__btn-back.css');
+@import url('../blocks/buttons/__arrow-forward/buttons__arrow-forward.css');
+@import url('../blocks/buttons/__arrow-back/buttons__arrow-back.css');
+@import url('../blocks/buttons/__container/buttons__container.css');
+@import url('../blocks/buttons/__btn-forward/buttons__btn-forward.css');
+@import url('../blocks/buttons/buttons.css');

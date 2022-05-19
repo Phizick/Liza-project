@@ -1,0 +1,8 @@
+.content-block__wrapper {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 32px;
+  margin: 0;
+}

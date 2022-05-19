@@ -5,7 +5,7 @@
 @import "../blocks/nav/nav.css";
 @import "../blocks/nav/__item-link/nav__item-link.css";
 @import "../blocks/content/content.css";
-@import "../blocks/content/__frame/content__frame.css";
+@import "../blocks/content/content-block.css";
 @import "../blocks/nav/__item/nav__item.css";
 @import "../blocks/nav/__item-title/nav__item-title.css";
 @import "../blocks/nav/__item-icon/nav__item-icon.css";
@@ -35,10 +35,3 @@
 @import "../blocks/buttons/__container/buttons__container.css";
 @import "../blocks/buttons/__btn-forward/buttons__btn-forward.css";
 @import "../blocks/buttons/buttons.css";
-@import "../blocks/content/content-block.css";
-@import "../blocks/content/content.css";
-
-
-
-
-
