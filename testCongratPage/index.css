@@ -10,7 +10,7 @@
 @import url('../blocks/breadcrumb/breadcrumb.css');
 @import url('../blocks/breadcrumb/__title/_active/breadcrumb__title_active.css');
 @import url('../blocks/breadcrumb/__container/breadcrumb__container.css');
-
+/* контейнер под видео, тест */
 @import url('../blocks/content/content.css');
 @import url('../blocks/content-main/content-main.css');
 @import url('../blocks/content-block/content-block.css');
@@ -37,10 +37,9 @@
 @import url('../blocks/list-item/__icon/_active/list-item__icon_active.css');
 @import url('../blocks/item/__text/_target/item__text_target.css');
 /* кнопки Назад и Далее */
-@import url('../blocks/buttons/__text/buttons__text.css');
-@import url('../blocks/buttons/__btn-back/buttons__btn-back.css');
-@import url('../blocks/buttons/__arrow-forward/buttons__arrow-forward.css');
-@import url('../blocks/buttons/__arrow-back/buttons__arrow-back.css');
 @import url('../blocks/buttons/__container/buttons__container.css');
-@import url('../blocks/buttons/__btn-forward/buttons__btn-forward.css');
 @import url('../blocks/buttons/buttons.css');
+@import url('../blocks/buttons/__btn-back/buttons__btn-back.css');
+@import url('../blocks/buttons/__arrow-back/buttons__arrow-back.css');
+@import url('../blocks/buttons/__btn-end/buttons__btn-end.css');
+@import url('../blocks/buttons/__text/buttons__text.css');

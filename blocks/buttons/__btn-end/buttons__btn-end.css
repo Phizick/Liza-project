@@ -1,0 +1,12 @@
+.buttons__btn-end {
+  width: 184px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.2px solid #FF6600;
+  background: #FF6600;
+  color: #fff;
+  border-radius: 16px;
+  padding: 12px 24px;
+}
