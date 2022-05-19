@@ -1,0 +1,20 @@
+.content-block__wrapper {
+  margin: 0 32px 0 32px;
+}
+
+.content__video {
+    width: 808px;
+    height: 421px;
+    padding-bottom: 35px;
+    background-image: url(../../../images/video_background_img.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    gap: 35px;
+}
+
+.content__video-item {
+    margin-left: 36px;
+}

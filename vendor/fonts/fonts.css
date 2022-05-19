@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "GolosTextWebRegular";
+  src: url(./golos/Golos-Text_Regular.woff2) format("woff2"),
+    url(./golos/Golos-Text_Regular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GolosTextWebBold";
+  src: url(./golos/Golos-Text_Bold.woff2) format("woff2"),
+    url(./golos/Golos-Text_Bold.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
