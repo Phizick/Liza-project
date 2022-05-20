@@ -49,15 +49,15 @@
                         <form action="#" class="form">
                             <p class="content-block__form-title">1. В каких случаях перспективно применение следовых кинологических расчётов?</p>
                             <label for="questionOne" class="form__label">
-                            <input type="checkbox" name="question" class="form__input form__checkbox" name="" id="questionOne" >
+                            <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionOne" >
                             <span class="form__pseudo-item form__checkbox"></span>
                             <span class="form__pseudo-text">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим <br> в безлюдной местности</span></label>
                             <label for="questionTwo" class="form__label">
-                                <input type="checkbox" name="question" class="form__input form__checkbox" name="" id="questionTwo">
+                                <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionTwo">
                                 <span class="form__pseudo-item form__checkbox"></span>
                                 <span class="form__pseudo-text">Обучение животного идти как по горячему, так и по остывшему следу</span></label>
                             <label for="questionThree" class="form__label">
-                                <input type="checkbox" name="question" class="form__input form__checkbox" name="" id="questionThree" >
+                                <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionThree" >
                                 <span class="form__pseudo-item form__checkbox"></span>
                                 <span class="form__pseudo-text">Поиск тел и их остатков с применением специально обученных собак</span></label>
                         </form>
@@ -79,7 +79,7 @@
                         
         
                         <div class="quest__button-show-result">
-                            <button class="button__result button__disabled" onclick="document.location='testFailed.html'">
+                            <button class="button__result button__disabled" onclick="countTest()">
                                 <span class="button__text">Показать результат</span>
                             </button>
                         </div>
@@ -211,6 +211,7 @@
                 </ol>
             </section>
         </main>
-        <script src="scripts/script.js"></script>
+        <script src="scripts/script.js" defer></script>
+        <script src="script2.js" defer></script>
     </body>
 </html>

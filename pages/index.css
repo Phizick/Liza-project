@@ -87,21 +87,18 @@
 @import "../blocks/form/__checkbox/form__checkbox.css";
 @import "../blocks/buttons/__result/buttons__result.css";
 @import "../blocks/item/__icon-test/item__icon-test.css";
+@import "../blocks/button/__result/button__result.css";
+@import "../blocks/button/__disabled/button__disabled.css";
+@import "../blocks/button/__result/_active/button__result_active.css";
+
+
 
 .content-block__header {
     display: flex;
     justify-content: space-between;
 }
 
-.button__result {
-    width: 224px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 16px;
-    cursor: pointer;
-}
+
 
 .content-block__button {
     border: none;

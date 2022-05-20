@@ -1,0 +1,9 @@
+.button__result {
+    width: 224px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+}

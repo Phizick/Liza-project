@@ -1,7 +1,7 @@
 .form__pseudo-item {
-    display: inline-block; /* элемент span теперь сможет принимать определённую ширину и высоту */
-    vertical-align: middle; /* элемент и текст будут правильно выровнены по вертикали. Работает в паре с inline-block */
-    height: 24px; /* размеры */
+    display: inline-block;
+    vertical-align: middle; 
+    height: 24px;
     width: 24px;
     background-size: contain;
     margin-right: 8px;

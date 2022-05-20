@@ -33,12 +33,7 @@
 
 
 
-.button__disabled {
-    border: 1.2px solid #e6e7eb;
-    background: #e6e7eb;
-    color: #9397a3;
-    cursor: pointer;
-}
+
 
 .arrow__back {
     margin-left: 8px;
