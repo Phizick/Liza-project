@@ -1,0 +1,16 @@
+.sidebar__order-text {
+    margin: 0;
+    max-width: 328px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212329;
+}
+
+@media screen and (max-width: 420px) {
+    .sidebar__order-text {
+        max-width: 283px;
+    }
+}
