@@ -2,6 +2,5 @@
     display: block;
     width: 24px;
     height: 24px;
-    background-size: cover;
     background: url('../../../images/icons/slide_down.svg') no-repeat;
 }
