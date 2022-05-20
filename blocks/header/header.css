@@ -6,3 +6,11 @@
   min-height: 72px;
   padding: 24px 60px;
 }
+
+@media (max-width: 590px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 30px;
+  }
+}
