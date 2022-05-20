@@ -6,4 +6,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  max-width: 1440px;
+  margin: 0 auto;
 }
