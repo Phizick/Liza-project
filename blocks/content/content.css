@@ -1,0 +1,6 @@
+.content {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    width: 100%;
+}
