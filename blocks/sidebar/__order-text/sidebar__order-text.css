@@ -9,8 +9,15 @@
     color: #212329;
 }
 
+@media screen and (max-width: 1400px) {
+    .sidebar__order-text {
+        width: 100%;
+        max-width: initial;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .sidebar__order-text {
-        max-width: 283px;
+        max-width: 230px;
     }
 }
