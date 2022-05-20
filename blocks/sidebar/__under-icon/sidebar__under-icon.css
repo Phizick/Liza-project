@@ -1,6 +1,7 @@
 .sidebar__under-icon {
-    width: 20px;
-    height: 20px;
     margin: 0;
-    background: url('../../../images/icons/green_ok_label.svg') no-repeat center;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background: url('../../../images/icons/green_ok_label.svg') no-repeat;
 }

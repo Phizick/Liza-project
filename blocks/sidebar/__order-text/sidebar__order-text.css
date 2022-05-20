@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 1400px) {
     .sidebar__order-text {
-        width: 100%;
+        width: auto;
         max-width: initial;
     }
 }
