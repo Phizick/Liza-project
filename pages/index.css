@@ -9,6 +9,14 @@
 @import url('../blocks/menu/__list-item/menu__list-item.css');
 @import url('../blocks/menu/__link/menu__link.css');
 @import url('../blocks/menu/__icon/menu__icon.css');
+
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/breadcrumbs/__list/breadcrumbs__list.css');
+@import url('../blocks/breadcrumbs/__item/breadcrumbs__item.css');
+@import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
+@import url('../blocks/breadcrumbs/__text/breadcrumbs__text.css');
+@import url('../blocks/breadcrumbs/__image/breadcrumbs__image.css');
+
 @import url('../blocks/sidebar/sidebar.css');
 @import url('../blocks/sidebar/__order-body/sidebar__order-body.css');
 @import url('../blocks/sidebar/__order-icon/sidebar__order-icon.css');
@@ -26,8 +34,10 @@
 @import url('../blocks/sidebar/__under-text/sidebar__under-text.css');
 @import url('../blocks/sidebar/__under-text/_target/sidebar__under-text_target.css');
 
+
 @import url('../blocks/content-wrapper/content-wrapper.css');
 @import url('../blocks/content-block/content-block.css');
 @import url('../blocks/content-block/__header/content__header.css');
 @import url('../blocks/content-block/__title/content-block__title.css');
 @import url('../blocks/buttons/buttons.css');
+
