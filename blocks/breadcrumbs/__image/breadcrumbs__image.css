@@ -1,0 +1,5 @@
+.breadcrumbs__image {
+  width: 24px;
+  height: 24px;
+  background: url(../../../images/icons/breadcrumbs_delimiter.svg) center no-repeat;
+}
