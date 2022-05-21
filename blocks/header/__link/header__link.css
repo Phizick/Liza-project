@@ -13,3 +13,9 @@
   opacity: 0.8;
   transition: opacity 0.8s linear;
 }
+
+@media (max-width: 590px) {
+  .header__link {
+    margin-bottom: 30px;
+  }
+}
