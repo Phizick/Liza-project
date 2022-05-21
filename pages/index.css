@@ -9,6 +9,14 @@
 @import url('../blocks/menu/__list-item/menu__list-item.css');
 @import url('../blocks/menu/__link/menu__link.css');
 @import url('../blocks/menu/__icon/menu__icon.css');
+
+@import url('../blocks/breadcrumbs/breadcrumbs.css');
+@import url('../blocks/breadcrumbs/__list/breadcrumbs__list.css');
+@import url('../blocks/breadcrumbs/__item/breadcrumbs__item.css');
+@import url('../blocks/breadcrumbs/__link/breadcrumbs__link.css');
+@import url('../blocks/breadcrumbs/__text/breadcrumbs__text.css');
+@import url('../blocks/breadcrumbs/__image/breadcrumbs__image.css');
+
 @import url('../blocks/sidebar/sidebar.css');
 @import url('../blocks/sidebar/__order-body/sidebar__order-body.css');
 @import url('../blocks/sidebar/__order-icon/sidebar__order-icon.css');
