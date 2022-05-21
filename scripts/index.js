@@ -1,13 +1,15 @@
 const listItems = document.querySelectorAll(".sidebar__order-item");
 listItems.forEach(function (item) {
-  item.addEventListener("click", Accordion);
+  item.addEventListener("click", function() {
+    item.children[0].children[1].classList.toggle("sidebar__order-icon_active");
+    Accordion(item);
+  });
 });
-function Accordion() {
-  if (this.children[1] === undefined) {
+function Accordion(elem) {
+  if (elem.children[1] === undefined) {
     return null;
   }
-  if (this.children[1].classList.contains("sidebar__under-list")) {
-    this.children[1].classList.toggle("sidebar__under-list_visible");
-    this.children[0].children[1].classList.toggle("sidebar__order-icon_active");
+  if (elem.children[1].classList.contains("sidebar__under-list")) {
+    elem.children[1].classList.toggle("sidebar__under-list_visible");
   }
 }
