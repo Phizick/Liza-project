@@ -1,0 +1,10 @@
+.video__sound-block {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .video__sound-block {
+        margin-top: 20px;
+    }
+}

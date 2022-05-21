@@ -13,3 +13,14 @@ function Accordion(elem) {
     elem.children[1].classList.toggle("sidebar__under-list_visible");
   }
 }
+const range = document.querySelectorAll('.range');
+range.forEach(function(item) {
+  item.addEventListener('input',function () {
+    item.style.background = 'linear-gradient(90deg, #FF6600 ' + item.value + '%, #9397A3 ' + item.value + '%)';
+  });
+})
+
+
+
+
+
