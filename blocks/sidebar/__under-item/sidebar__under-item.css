@@ -1,0 +1,8 @@
+.sidebar__under-item {
+    margin-top: 16px;
+    display: flex;
+}
+
+.sidebar__under-item:first-child {
+    margin-top: 0;
+}

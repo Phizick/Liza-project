@@ -1,0 +1,7 @@
+.sidebar__order-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    transition: .2s;
+    background: url('../../../images/icons/slide_down.svg') no-repeat;
+}

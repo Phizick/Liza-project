@@ -1,0 +1,8 @@
+.breadcrumbs__item {
+  list-style: none;
+  display: block;
+}
+
+.breadcrumbs__item:last-child {
+  color: #9397A3;
+}
