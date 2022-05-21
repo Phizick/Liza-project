@@ -2,3 +2,10 @@
     max-width: 872px;
     width: 100%;
 }
+
+@media screen and (max-width: 1400px) {
+    .content-wrapper {
+        width: 100%;
+        max-width: initial;
+    }
+}
