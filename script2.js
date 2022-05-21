@@ -34,7 +34,7 @@ function countTest() {
     || (questionOne.checked & questionThree.checked)
     || (questionOne.checked & questionTwo.checked)
     && inp.checked)) {
-    window.location.href = 'testPassed.html';
+    this.location.href = 'testPassed.html';
     }
     
 }
