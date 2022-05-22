@@ -1,0 +1,13 @@
+.content-block__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #25272D;
+  padding: 0;
+  margin: 0;
+}
+
+.content-block__text:first-of-type {
+  margin-bottom: 20px;
+}
