@@ -1,0 +1,25 @@
+.form__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.form__input:checked + .form__checkbox {
+    background-image: url(../../../images/icons/checkbox-rectangle-orange.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form__input:checked + .form__radio {
+    background-image: url(../../../images/icons/radio-circle-orange.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.form__input:checked~.form__pseudo-text {
+    color: #F06000;
+}
