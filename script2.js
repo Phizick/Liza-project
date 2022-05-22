@@ -15,12 +15,12 @@ for (i = 0; i < testMarkerCheck.length; i++) {
 }
 return count;
 }
-let a = 0
+let radioValueCount = 0
 testMarker.forEach(item => {
 this.addEventListener('click', () => {
     if ( item.checked === true) {
         formBtn.classList.add("button__result_active");
-        a++;
+        radioValueCount++;
     } if (resulted() <= 0) {
         formBtn.classList.remove("button__result_active")
     }
@@ -28,7 +28,7 @@ this.addEventListener('click', () => {
 
 testMarkerCheck.forEach(item => {
     this.addEventListener('click', () => {
-        if ((item.checked === true) && (a >= 1)) {
+        if ((item.checked === true) && (radioValueCount >= 1)) {
             formBtn.classList.add("button__result_active");
         } if (resulted() <= 0) {
             formBtn.classList.remove("button__result_active")
