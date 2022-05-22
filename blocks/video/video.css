@@ -4,7 +4,6 @@
     flex-direction: column;
     justify-content: end;
     box-sizing: border-box;
-    margin-top: 32px;
     background-size: cover;
     background: url('../../images/video_background_img.jpeg') center center / cover no-repeat;
     width: 100%;
