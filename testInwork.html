@@ -6,20 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="This is courses web-page" />
     <title>Лиза Алерт</title>
-    <link rel="stylesheet" href="./pages/testCompleetWin.css" type="text/css" />
+    <link rel="stylesheet" href="./pages/index.css" type="text/css" />
   </head>
   <body class="page">
     <header class="header">
-      <a class="header__link" target="_blank" href="./index.html">Учебная платформа</a>
+      <a class="header__link" target="_blank" href="./index.html"
+        >Учебная платформа</a
+      >
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__list-item">
             <a class="menu__link" href="./index.html">
-            <img class="menu__icon" src="./images/icons/logo_courses.svg" alt="Курсы"/>Курсы</a>
+              <img
+                class="menu__icon"
+                src="./images/icons/logo_courses.svg"
+                alt="Курсы"
+              />Курсы
+            </a>
           </li>
           <li class="menu__list-item">
             <a class="menu__link menu__link_active" href="#">
-            <img class="menu__icon" src="./images/icons/logo_profile_active.svg" alt="Профиль"/>Профиль</a>
+              <img
+                class="menu__icon"
+                src="./images/icons/logo_profile_active.svg"
+                alt="Профиль"
+              />Профиль
+            </a>
           </li>
         </ul>
       </nav>
@@ -39,42 +51,53 @@
           </a>
         </li>
         <li class="breadcrumbs__item">
+          <a href="#" class="breadcrumbs__link">
+            <span class="breadcrumbs__text">
+              5. Работа «второго номера» совместно со следовым кинологическим
+              расчётом
+            </span>
+            <div class="breadcrumbs__image"></div>
+          </a>
+        </li>
+        <li class="breadcrumbs__item">
           <a href="#" class="breadcrumbs__link" disabled>
-            <span class="breadcrumbs__text">Курс завершен</span>
+            <span class="breadcrumbs__text">Видео</span>
           </a>
         </li>
       </ul>
     </nav>
     <main class="content">
       <div class="content-wrapper">
-        <!--блок тест Поздравляем Курс завершён-->
-        <section class="content-block">
-          <div class="content-block__header">
-            <h2 class="content-block__title">Курс завершен</h2>
-          </div>
-          <div class="result result_padding-little">
-            <h2 class="result__title">Поздравляем!</h2>
-            <p class="result__subtitle">
-              Вы успешно завершили курс «Кинологическое направление».
-            </p>
-            <p class="result__subtitle">
-              Теперь вы можете участвовать в поисково-спасательных мероприятиях
-              со своей собакой.
-            </p>
-          </div>
-        </section>
-        <div class="buttons">
-          <button
-            type="button" aria-label="Предыдущая страница."
-            class="button button__arrow_back-orang button__text_orang">
-            Назад
-          </button>
-          <button
-            type="button" aria-label="Завершить."
-            class="button button__color_orang button__text_end">
-            Завершить
-          </button>
-        </div>
+        <form action="#" class="form">
+            <p class="content-block__form-title">1. В каких случаях перспективно применение следовых кинологических расчётов?</p>
+            <label for="questionOne" class="form__label">
+            <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionOne" >
+            <span class="form__pseudo-item form__checkbox"></span>
+            <span class="form__pseudo-text">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим <br> в безлюдной местности</span></label>
+            <label for="questionTwo" class="form__label">
+                <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionTwo">
+                <span class="form__pseudo-item form__checkbox"></span>
+                <span class="form__pseudo-text">Обучение животного идти как по горячему, так и по остывшему следу</span></label>
+            <label for="questionThree" class="form__label">
+                <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionThree" >
+                <span class="form__pseudo-item form__checkbox"></span>
+                <span class="form__pseudo-text">Поиск тел и их остатков с применением специально обученных собак</span></label>
+        </form>
+        <form action="#" class="form">
+            <p class="content-block__form-title">2. С какого возраста следует начинать дрессировку по курсу ПСС?</p>
+            <label for="questionFour" class="form__label">
+                <input type="radio" class="form__input" name="question" id="questionFour" >
+                <span class="form__pseudo-item form__radio"></span>
+                <span class="form__pseudo-text">1–1,5 года</span></label>
+            <label for="questionFive" class="form__label">
+                <input type="radio" class="form__input" name="question" id="questionFive">
+                <span class="form__pseudo-item form__radio"></span>
+                <span class="form__pseudo-text">3 года</span></label>
+            <label for="questionSix" class="form__label">
+                <input type="radio" class="form__input" name="question" id="questionSix">
+                <span class="form__pseudo-item form__radio"></span>
+                <span class="form__pseudo-text">Поиск тел и их остатков с применением специально обученных собак</span></label>
+        </form>
       </div>
       <aside class="aside sidebar">
         <h2 class="sidebar__title">Содержание</h2>
@@ -184,14 +207,14 @@
               </li>
               <li class="sidebar__under-item">
                 <div
-                  class="sidebar__under-icon"
+                  class="sidebar__under-icon sidebar__under-icon_video-target"
                 ></div>
-                <p class="sidebar__under-text">
+                <p class="sidebar__under-text sidebar__under-text_target">
                   Видео
                 </p>
               </li>
               <li class="sidebar__under-item">
-                <div class="sidebar__under-icon"></div>
+                <div class="sidebar__under-icon sidebar__under-icon_test"></div>
                 <p class="sidebar__under-text">Тест</p>
               </li>
             </ul>
@@ -234,6 +257,7 @@
         </ol>
       </aside>
     </main>
-    <script src="scripts/index.js"></script>
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/testInwork.js" defer></script>
   </body>
 </html>
