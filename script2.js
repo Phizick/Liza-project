@@ -15,11 +15,12 @@ for (i = 0; i < testMarkerCheck.length; i++) {
 }
 return count;
 }
-
+let a = 0
 testMarker.forEach(item => {
 this.addEventListener('click', () => {
     if ( item.checked === true) {
         formBtn.classList.add("button__result_active");
+        a++;
     } if (resulted() <= 0) {
         formBtn.classList.remove("button__result_active")
     }
@@ -27,7 +28,7 @@ this.addEventListener('click', () => {
 
 testMarkerCheck.forEach(item => {
     this.addEventListener('click', () => {
-        if ( item.checked === true) {
+        if ((item.checked === true) && (a >= 1)) {
             formBtn.classList.add("button__result_active");
         } if (resulted() <= 0) {
             formBtn.classList.remove("button__result_active")
