@@ -4,13 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 32px 32px 64px 32px;
+  padding: 0 0 32px 0;
   margin: 0 auto;
 }
 
 
-@media(max-width:430px) {
+/* @media(max-width:430px) {
   .content-block__content {
-    padding: 20px 32px 32px 32px;
+    padding: 32px 5% 32px;
   }
-}
+} */
