@@ -6,20 +6,9 @@
     box-sizing: border-box;
     margin-top: 32px;
     background-size: cover;
-    background: url('../../images/video_background_img.jpeg') no-repeat center;
+    background: url('../../images/video_background_img.jpeg') center center / cover no-repeat;
     width: 100%;
     min-height: 456px;
     border-radius: 8px;
     box-shadow: 0 0 4px rgba(233, 234, 237, 0.6), 0 4px 16px rgba(233, 234, 237, 0.4);
 }
-
-@media screen and (max-width: 1400px) and (min-width: 1300px) {
-    .video {
-        width: 98%;
-        margin: 32px auto 0 auto;
-    }
-}
-
-
-
-
