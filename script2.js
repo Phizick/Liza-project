@@ -5,27 +5,6 @@ const testMarker = document.getElementsByName('question');
 const testMarkerCheck = document.getElementsByName("question__first");
 
 
-
-testMarker.forEach(item => {
-item.addEventListener('click', () => {
-    if ( item.checked === true) {
-        formBtn.classList.add("button__result_active");
-    } if (item.checked === false) {
-        formBtn.classList.remove("button__result_active")
-    }
-})})
-
-testMarkerCheck.forEach(item => {
-    item.addEventListener('click', () => {
-        if ( item.checked === true) {
-            formBtn.classList.add("button__result_active");
-        } if (item.checked === false) {
-            formBtn.classList.remove("button__result_active")
-        }
-})})
-
-
-
 function resulted() {
     let count = 0;
 for (i = 0; i < testMarkerCheck.length; i++) {
@@ -36,17 +15,33 @@ for (i = 0; i < testMarkerCheck.length; i++) {
 }
 return count;
 }
- 
+
+testMarker.forEach(item => {
+this.addEventListener('click', () => {
+    if ( item.checked === true) {
+        formBtn.classList.add("button__result_active");
+    } if (resulted() <= 0) {
+        formBtn.classList.remove("button__result_active")
+    }
+})})
+
+testMarkerCheck.forEach(item => {
+    this.addEventListener('click', () => {
+        if ( item.checked === true) {
+            formBtn.classList.add("button__result_active");
+        } if (resulted() <= 0) {
+            formBtn.classList.remove("button__result_active")
+        }
+})})
 
 
 function countTest() {
     if (formBtn.classList.contains("button__result_active") 
-    && (resulted() >= 1)
+    && (resulted() >= 2)
     & questionFive.checked) {
     this.location.href = 'testPassed.html';
     } else {
         this.location.href = 'testFailed.html'
-    }
-    
+    }    
 }
 
