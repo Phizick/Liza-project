@@ -1,12 +1,5 @@
 .content-block__header {
     box-sizing: border-box;
     width: 100%;
-    padding: 32px;
     margin: 0;
-}
-
-@media (max-width:430px) {
-    .content-block__header {
-        padding: 20px 0 20px 32px;
-    }
 }
