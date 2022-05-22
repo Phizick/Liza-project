@@ -1,13 +1,14 @@
-.content-block__text {
+.result__subtitle {
+  width: 100%;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #25272D;
+  color: #212329;
   padding: 0;
   margin: 0;
 }
 
-.content-block__text:first-of-type {
+.result__subtitle:first-of-type {
   margin-bottom: 20px;
 }
