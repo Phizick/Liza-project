@@ -10,3 +10,22 @@
     margin: 0;
     padding: 0;
   }
+
+  .button:first-child {
+    margin-right: 24px;
+  }
+
+  .button:last-child {
+    margin-right: 32px;
+  }
+
+  @media (max-width: 430px) {
+    .button:first-child {
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+
+    .button:last-child {
+      margin-right: 0;
+    }
+  }
