@@ -30,6 +30,20 @@
     background: #fff;
     width: 20px;
     height: 20px;
+    border: 0;
     border-radius: 50%;
     cursor: pointer;
+    position: relative;
+}
+
+.range::-moz-range-progress {
+    background: #FF6600;
+    height: 6px;
+    border-radius: 16px;
+}
+
+.range::-ms-fill-lower {
+    background: #FF6600;
+    height: 6px;
+    border-radius: 16px;
 }
