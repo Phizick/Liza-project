@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 1400px) {
     .sidebar {
+        margin-top: 24px;
         max-width: 100%;
         width: 100%;
     }
