@@ -1,0 +1,19 @@
+.video__loading {
+    width: 468px;
+    background: -webkit-linear-gradient(left, #FF6600 0%, #FF6600 0%, #9397A3 0%, #9397A3);
+}
+
+.video__loading::-moz-range-track {
+    width: 468px;
+    background: -webkit-linear-gradient(left, #FF6600 0%, #FF6600 0%, #9397A3 0%, #9397A3);
+}
+
+@media screen and (max-width: 800px) {
+    .video__loading {
+        width:75%;
+        margin-top: 20px;
+    }
+    .video__loading::-moz-range-track {
+        width:75%
+    }
+}

@@ -1,14 +1,15 @@
 .buttons {
+    margin: 24px 0;
     display: flex;
     justify-content: flex-end;
-    padding: 0;
-    margin: 24px 0 0 0;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-right: 32px;
 }
 
-@media (max-width: 430px) {
+@media screen and (max-width: 442.98px) {
     .buttons {
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
+        padding: 0;
     }
 }
