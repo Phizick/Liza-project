@@ -2,6 +2,8 @@
 @import url('../vendor/font.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
+
+/* Header */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/menu/menu.css');
@@ -10,6 +12,8 @@
 @import url('../blocks/menu/__link/menu__link.css');
 @import url('../blocks/menu/__icon/menu__icon.css');
 
+/* buttons */
+@import url('../blocks/buttons/buttons.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__arrow/_back-orang/button__arrow_back-orang.css');
 @import url('../blocks/button/__arrow/_back-white/button__arrow_back-white.css');
@@ -23,8 +27,9 @@
 @import url('../blocks/button/__text/_gray/button__text_gray.css');
 @import url('../blocks/button/__text/_start/button__text_start.css');
 @import url('../blocks/button/__text/_result/button__text_result.css');
+@import url('../blocks/button/__text/_end/button__text_end.css');
 
-
+/* breadcrumbs */
 @import url('../blocks/breadcrumbs/breadcrumbs.css');
 @import url('../blocks/breadcrumbs/__list/breadcrumbs__list.css');
 @import url('../blocks/breadcrumbs/__item/breadcrumbs__item.css');
@@ -32,7 +37,7 @@
 @import url('../blocks/breadcrumbs/__text/breadcrumbs__text.css');
 @import url('../blocks/breadcrumbs/__image/breadcrumbs__image.css');
 
-
+/* sidebar */
 @import url('../blocks/sidebar/sidebar.css');
 @import url('../blocks/sidebar/__order-body/sidebar__order-body.css');
 @import url('../blocks/sidebar/__order-icon/sidebar__order-icon.css');
@@ -52,20 +57,13 @@
 @import url('../blocks/sidebar/__under-icon/_test-target/sidebar__under-icon_test-target.css');
 @import url('../blocks/sidebar/__under-icon/_lesson/sidebar__under-icon_lesson.css');
 
-
+/* content-block */
 @import url('../blocks/content-wrapper/content-wrapper.css');
 @import url('../blocks/content-block/content-block.css');
-@import url('../blocks/content-block/__content/content-block__content.css');
+@import url('../blocks/content-block/__header/content-block__header.css');
 @import url('../blocks/content-block/__title/content-block__title.css');
-@import url('../blocks/buttons/buttons.css');
-
-
-@import url('../blocks/video/video.css');
-@import url('../blocks/range/range.css');
-@import url('../blocks/video/__sound-btn/video__sound-btn.css');
-@import url('../blocks/video/__play-btn/video__play-btn.css');
-@import url('../blocks/video/__controls/video__controls.css');
-@import url('../blocks/video/__fullscreen/video__fullscreen.css');
-@import url('../blocks/video/__loading/video__loading.css');
-@import url('../blocks/video/__sound-block/video__sound-block.css');
-@import url('../blocks/video/__sound-regulation/video__sound-regulation.css');
+@import url('../blocks/content-block/__content/content-block__content.css');
+@import url('../blocks/content-block/__result/content-block__result.css');
+@import url('../blocks/content-block/__subtitle/content-block__subtitle.css');
+@import url('../blocks/content-block/__text/content-block__text.css');
+@import url('../blocks/content-block/__text-bold/content-block__text-bold.css');
