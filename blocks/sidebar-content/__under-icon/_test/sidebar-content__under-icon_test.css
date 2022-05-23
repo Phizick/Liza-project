@@ -1,0 +1,9 @@
+<<<<<<< HEAD:blocks/sidebar/__under-icon/_test/sidebar__under-icon_test.css
+.sidebar__under-icon_test {
+    flex-shrink: 0;
+=======
+.sidebar-content__under-icon_test {
+>>>>>>> dac6e70a9d9f20bb888ab78d7391d388411fdb5a:blocks/sidebar-content/__under-icon/_test/sidebar-content__under-icon_test.css
+    background: url("../../../../images/icons/a4_test.svg") no-repeat center;
+    background-size: contain;
+}

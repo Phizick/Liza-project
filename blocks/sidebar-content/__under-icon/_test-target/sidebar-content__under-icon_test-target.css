@@ -1,0 +1,9 @@
+<<<<<<< HEAD:blocks/sidebar/__under-icon/_test-target/sidebar__under-icon_test-target.css
+.sidebar__under-icon_test-target {
+    flex-shrink: 0;
+=======
+.sidebar-content__under-icon_test-target {
+>>>>>>> dac6e70a9d9f20bb888ab78d7391d388411fdb5a:blocks/sidebar-content/__under-icon/_test-target/sidebar-content__under-icon_test-target.css
+    background: url("../../../../images/icons/a4_test_active.svg") no-repeat center center;
+    background-size: contain;
+}

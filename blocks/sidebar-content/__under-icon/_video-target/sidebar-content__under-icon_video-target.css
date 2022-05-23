@@ -1,0 +1,9 @@
+<<<<<<< HEAD:blocks/sidebar/__under-icon/_video-target/sidebar__under-icon_video-target.css
+.sidebar__under-icon_video-target {
+    flex-shrink: 0;
+=======
+.sidebar-content__under-icon_video-target {
+>>>>>>> dac6e70a9d9f20bb888ab78d7391d388411fdb5a:blocks/sidebar-content/__under-icon/_video-target/sidebar-content__under-icon_video-target.css
+    background: url("../../../../images/icons/vhs_camera_active.svg") no-repeat center center;
+    background-size: contain;
+}

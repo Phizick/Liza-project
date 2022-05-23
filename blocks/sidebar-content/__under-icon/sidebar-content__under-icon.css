@@ -1,0 +1,11 @@
+<<<<<<< HEAD:blocks/sidebar/__under-icon/sidebar__under-icon.css
+.sidebar__under-icon {
+    flex-shrink: 0;
+=======
+.sidebar-content__under-icon {
+>>>>>>> dac6e70a9d9f20bb888ab78d7391d388411fdb5a:blocks/sidebar-content/__under-icon/sidebar-content__under-icon.css
+    margin: 0 8px 0 0;
+    width: 24px;
+    height: 24px;
+    background: url('../../../images/icons/green_ok_label.svg') no-repeat center;
+}

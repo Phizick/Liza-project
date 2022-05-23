@@ -1,0 +1,9 @@
+<<<<<<< HEAD:blocks/sidebar/__order-icon/_active/sidebar__order-icon_active.css
+.sidebar__order-icon_active {
+    flex-shrink: 0;
+=======
+.sidebar-content__order-icon_active {
+>>>>>>> dac6e70a9d9f20bb888ab78d7391d388411fdb5a:blocks/sidebar-content/__order-icon/_active/sidebar-content__order-icon_active.css
+    background-size: cover;
+    background: url('../../../../images/icons/slide_up.svg') no-repeat;
+}

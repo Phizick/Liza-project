@@ -1,0 +1,9 @@
+<<<<<<< HEAD:blocks/sidebar/__under-icon/_webinar/sidebar__under-icon_webinar.css
+.sidebar__under-icon_webinar {
+    flex-shrink: 0;
+=======
+.sidebar-content__under-icon_webinar {
+>>>>>>> dac6e70a9d9f20bb888ab78d7391d388411fdb5a:blocks/sidebar-content/__under-icon/_webinar/sidebar-content__under-icon_webinar.css
+    background: url("../../../../images/icons/laptop.svg") no-repeat center;
+    background-size: contain;
+}
