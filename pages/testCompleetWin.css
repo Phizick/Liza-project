@@ -63,10 +63,8 @@
 @import url('../blocks/content-block/__header/content-block__header.css');
 @import url('../blocks/content-block/__title/content-block__title.css');
 
-
 /* result-block */
 @import url('../blocks/result/result.css');
 @import url('../blocks/result/__title/result__title.css');
 @import url('../blocks/result/__subtitle/result__subtitle.css');
 @import url('../blocks/result/__subtitle-bold/result__subtitle-bold.css');
-@import url('../blocks/result/_padding/result_padding-little.css');
