@@ -2,6 +2,8 @@
 @import url('../vendor/font.css');
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
+
+/* Header */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/menu/menu.css');
@@ -10,15 +12,7 @@
 @import url('../blocks/menu/__link/menu__link.css');
 @import url('../blocks/menu/__icon/menu__icon.css');
 
-@import url('../blocks/content-wrapper/content-wrapper.css');
-@import url('../blocks/content-block/content-block.css');
-@import url('../blocks/content-block/__header/content-block__header.css');
-@import url('../blocks/content-block/__title/content-block__title.css');
-@import url('../blocks/content-block/__content/content-block__content.css');
-@import url('../blocks/content-block/__subtitle/content-block__subtitle.css');
-@import url('../blocks/content-block/__text/content-block__text.css');
-@import url('../blocks/content-block/__text-bold/content-block__text-bold.css');
-
+/* buttons */
 @import url('../blocks/buttons/buttons.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__arrow/_back-orang/button__arrow_back-orang.css');
@@ -35,7 +29,7 @@
 @import url('../blocks/button/__text/_result/button__text_result.css');
 @import url('../blocks/button/__text/_end/button__text_end.css');
 
-
+/* breadcrumbs */
 @import url('../blocks/breadcrumbs/breadcrumbs.css');
 @import url('../blocks/breadcrumbs/__list/breadcrumbs__list.css');
 @import url('../blocks/breadcrumbs/__item/breadcrumbs__item.css');
@@ -43,7 +37,7 @@
 @import url('../blocks/breadcrumbs/__text/breadcrumbs__text.css');
 @import url('../blocks/breadcrumbs/__image/breadcrumbs__image.css');
 
-
+/* sidebar */
 @import url('../blocks/sidebar/sidebar.css');
 @import url('../blocks/sidebar/__order-body/sidebar__order-body.css');
 @import url('../blocks/sidebar/__order-icon/sidebar__order-icon.css');
@@ -53,8 +47,6 @@
 @import url('../blocks/sidebar/__order-text/sidebar__order-text.css');
 @import url('../blocks/sidebar/__title/sidebar__title.css');
 @import url('../blocks/sidebar/__under-icon/sidebar__under-icon.css');
-@import url('../blocks/sidebar/__under-icon/_test/sidebar__under-icon_test.css');
-@import url('../blocks/sidebar/__under-icon/_video-target/sidebar__under-icon_video-target.css');
 @import url('../blocks/sidebar/__under-item/sidebar__under-item.css');
 @import url('../blocks/sidebar/__under-list/sidebar__under-list.css');
 @import url('../blocks/sidebar/__under-list/_visible/sidebar__under-list_visible.css');
@@ -62,29 +54,18 @@
 @import url('../blocks/sidebar/__under-text/_target/sidebar__under-text_target.css');
 @import url('../blocks/sidebar/__under-icon/_test-target/sidebar__under-icon_test-target.css');
 @import url('../blocks/sidebar/__under-icon/_lesson/sidebar__under-icon_lesson.css');
-@import url('../blocks/sidebar/__under-icon//_webinar/sidebar__under-icon_webinar.css');
 
-<<<<<<< HEAD
-
-@import url('../blocks/buttons/buttons.css');
-=======
+/* content-block */
 @import url('../blocks/content-wrapper/content-wrapper.css');
 @import url('../blocks/content-block/content-block.css');
-@import url('../blocks/content-block/__content/content-block__content.css');
-@import url('../blocks/content-block/__header/content__header.css');
+@import url('../blocks/content-block/__header/content-block__header.css');
 @import url('../blocks/content-block/__title/content-block__title.css');
-@import url('../blocks/buttons/buttons.css');
-
-@import "../blocks/form/form.css";
-@import "../blocks/form/__input/form__input.css";
-@import "../blocks/form/__label/form__label.css";
-@import "../blocks/form/__pseudo-item/form__pseudo-item.css";
-@import "../blocks/form/__pseudo-text/form__pseudo-text.css";
-@import "../blocks/form/__radio/form__radio.css";
-@import "../blocks/form/__checkbox/form__checkbox.css";
-@import "../blocks/buttons/__result/buttons__result.css";
-@import "../blocks/item/__icon-test/item__icon-test.css";
-@import "../blocks/button/__result/button__result.css";
-@import "../blocks/button/__disabled/button__disabled.css";
-@import "../blocks/button/__result/_active/button__result_active.css";
->>>>>>> Developing
+@import url('../blocks/content-block/__about/content-block__about.css');
+@import url('../blocks/content-block/__text/content-block__text.css');
+@import url('../blocks/content-block/__two-columns/content-block__two-columns.css');
+@import url('../blocks/content-block/__icon-check/content-block__icon-check.css');
+@import url('../blocks/content-block/__icon-circulation/content-block__icon-circulation.css');
+@import url('../blocks/content-block/__icon-hourglass/content-block__icon-hourglass.css');
+@import url('../blocks/content-block/__wrapper-row/content-block__wrapper-row.css');
+@import url('../blocks/content-block/__wrapper-description/content-block__wrapper-description.css');
+@import url('../blocks/content-block/__button/content-block__button.css');
