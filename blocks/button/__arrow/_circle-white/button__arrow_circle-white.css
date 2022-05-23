@@ -1,4 +1,5 @@
 .button__arrow_circle-white {
+  flex-shrink: 0;
   width: 176px;
   background-image: url('../../../../images/icons/circulation_white.svg');
   background-repeat: no-repeat;
