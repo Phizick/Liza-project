@@ -1,0 +1,10 @@
+.result {
+    padding: 64px 64px 32px;
+    margin: 0;
+}
+
+@media(max-width:430px) {
+    .result {
+        padding: 32px 10px 32px;
+    }
+}

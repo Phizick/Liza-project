@@ -63,7 +63,9 @@
 @import url('../blocks/content-block/__header/content-block__header.css');
 @import url('../blocks/content-block/__title/content-block__title.css');
 @import url('../blocks/content-block/__content/content-block__content.css');
-@import url('../blocks/content-block/__result/content-block__result.css');
-@import url('../blocks/content-block/__result-title/content-block__result-title.css');
-@import url('../blocks/content-block/__resutl-text/content-block__result-text.css');
-@import url('../blocks/content-block/__text-bold/content-block__text-bold.css');
+
+/* result-block */
+@import url('../blocks/result/result.css');
+@import url('../blocks/result/__title/result__title.css');
+@import url('../blocks/result/__subtitle/result__subtitle.css');
+@import url('../blocks/result/__subtitle-bold/result__subtitle-bold.css');
