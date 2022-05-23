@@ -62,6 +62,7 @@
 @import url('../blocks/sidebar/__under-text/_target/sidebar__under-text_target.css');
 @import url('../blocks/sidebar/__under-icon/_test-target/sidebar__under-icon_test-target.css');
 @import url('../blocks/sidebar/__under-icon/_lesson/sidebar__under-icon_lesson.css');
+@import url('../blocks/sidebar/__under-icon//_webinar/sidebar__under-icon_webinar.css');
 
 @import url('../blocks/content-wrapper/content-wrapper.css');
 @import url('../blocks/content-block/content-block.css');
