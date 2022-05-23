@@ -1,0 +1,5 @@
+@media(max-width:430px) {
+  .result_padding-little {
+    padding: 32px 10px 32px;
+  }
+}

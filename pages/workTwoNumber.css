@@ -1,0 +1,12 @@
+/* result-block */
+@import url('../blocks/result/result.css');
+@import url('../blocks/result/_padding/result_pudding-up.css');
+@import url('../blocks/result/__title/result__title.css');
+@import url('../blocks/result/__subtitle/result__subtitle.css');
+@import url('../blocks/result/__subtitle-bold/result__subtitle-bold.css');
+@import url('../blocks/result/_padding/result_padding-little.css');
+@import url('../blocks/result/_color/result_color-green.css');
+@import url('../blocks/result/_color/result_color-rose.css');
+@import url('../blocks/result/_text/result_text-rose.css');
+@import url('../blocks/result/_text/result_text-green.css');
+@import url('../blocks/buttons/_center/buttons_center.css');
