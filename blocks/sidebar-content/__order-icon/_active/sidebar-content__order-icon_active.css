@@ -1,0 +1,4 @@
+.sidebar-content__order-icon_active {
+    background-size: cover;
+    background: url('../../../../images/icons/slide_up.svg') no-repeat;
+}
