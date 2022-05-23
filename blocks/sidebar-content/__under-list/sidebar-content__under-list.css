@@ -1,0 +1,8 @@
+.sidebar-content__under-list {
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    padding: 0;
+    list-style-type: none;
+    transition: .2s;
+}
