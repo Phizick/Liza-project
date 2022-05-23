@@ -1,0 +1,5 @@
+.sidebar-content__order-icon_active {
+    flex-shrink: 0;
+    background-size: cover;
+    background: url('../../../../images/icons/slide_up.svg') no-repeat;
+}
