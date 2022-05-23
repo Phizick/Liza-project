@@ -1,4 +1,5 @@
   .button {
+    flex-shrink: 0;
     width: 184px;
     height: 48px;
     background-color: #fff;
