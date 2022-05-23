@@ -1,0 +1,4 @@
+.content-block__wrapper-row {
+  display: flex;
+  justify-content: space-between;
+}
