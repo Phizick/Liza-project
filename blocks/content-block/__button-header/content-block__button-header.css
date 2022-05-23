@@ -9,4 +9,9 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  transition: border-bottom .3s linear;
+}
+
+.content-block__button-header:hover {
+  border-bottom: 1px solid #212329;
 }
