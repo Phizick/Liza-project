@@ -51,7 +51,7 @@
         </li>
         <li class="breadcrumbs__item">
           <a href="#" class="breadcrumbs__link" disabled>
-            <span class="breadcrumbs__text">Видео</span>
+            <span class="breadcrumbs__text">Тест</span>
           </a>
         </li>
       </ul>
@@ -59,12 +59,18 @@
     <main class="content">
       <div class="content-wrapper">
         <section class="content-block">
+          <div class="content-block__header">
+            <h2 class="content-block__title">Тест</h2>
+            <button type="button" aria-label="Вернуться к тесту" class="content-block__button-header">
+              Посмотреть&nbsp;условия
+            </button>
+          </div>
           <form action="#" class="form">
-              <p class="content-block__text-bold">1. В каких случаях перспективно применение следовых кинологических расчётов?</p>
+              <p class="form__question-title">1. В каких случаях перспективно применение следовых кинологических расчётов?</p>
               <label for="questionOne" class="form__label">
                 <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionOne" >
                 <span class="form__pseudo-item form__checkbox"></span>
-                <span class="form__pseudo-text">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим <br> в безлюдной местности</span>
+                <span class="form__pseudo-text">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
               </label>
               <label for="questionTwo" class="form__label">
                   <input type="checkbox" name="question__first" class="form__input form__checkbox" id="questionTwo">
@@ -78,7 +84,7 @@
               </label>
           </form>
           <form action="#" class="form">
-              <p class="content-block__form-title">2. С какого возраста следует начинать дрессировку по курсу ПСС?</p>
+              <p class="form__question-title">2. С какого возраста следует начинать дрессировку по курсу ПСС?</p>
               <label for="questionFour" class="form__label">
                   <input type="radio" class="form__input" name="question" id="questionFour" >
                   <span class="form__pseudo-item form__radio"></span>
@@ -92,12 +98,17 @@
                   <span class="form__pseudo-item form__radio"></span>
                   <span class="form__pseudo-text">Поиск тел и их остатков с применением специально обученных собак</span></label>
           </form>
+          <div class="content-block__button">
+            <button class="button button__color_gray button__text_gray button__text_result">
+              Показать&nbsp;результат
+            </button>
+          </div>
         </section>
         <div class="buttons">
           <button type="button" aria-label="Предыдущая страница." class="button button__arrow_back-orang button__text_orang">
             Назад
           </button>
-          <button type="button" aria-label="Следующая страница." class="button button__color_orang button__arrow_forward-white">
+          <button button type="button" aria-label="Следующая страница." class="button button__color_gray button__arrow_forward-grey button__text_gray">
             Далее
           </button>
         </div>
@@ -205,14 +216,14 @@
                 <p class="sidebar__under-text">Урок</p>
               </li>
               <li class="sidebar__under-item">
-                <div class="sidebar__under-icon sidebar__under-icon_video-target"></div>
-                <p class="sidebar__under-text sidebar__under-text_target">
+                <div class="sidebar__under-icon "></div>
+                <p class="sidebar__under-text ">
                   Видео
                 </p>
               </li>
               <li class="sidebar__under-item">
-                <div class="sidebar__under-icon sidebar__under-icon_test"></div>
-                <p class="sidebar__under-text">Тест</p>
+                <div class="sidebar__under-icon sidebar__under-icon_video-target"></div>
+                <p class="sidebar__under-text sidebar__under-text_target">Тест</p>
               </li>
             </ul>
           </li>

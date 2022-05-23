@@ -1,0 +1,9 @@
+.form__question-title {
+    margin: 0;
+    padding-bottom: 16px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #212329;
+}
