@@ -3,7 +3,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-<<<<<<< HEAD:blocks/result/__subtitle/result__subtitle.css
   text-align: center;
   color: #212329;
   padding: 0;
@@ -13,9 +12,3 @@
 .result__subtitle:first-of-type {
   margin-bottom: 20px;
 }
-=======
-  color: #25272D;
-  padding: 0;
-  margin: 0;
-}
->>>>>>> Developing:blocks/content-block/__text/content-block__text.css

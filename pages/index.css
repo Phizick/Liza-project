@@ -64,27 +64,5 @@
 @import url('../blocks/sidebar/__under-icon/_lesson/sidebar__under-icon_lesson.css');
 @import url('../blocks/sidebar/__under-icon//_webinar/sidebar__under-icon_webinar.css');
 
-<<<<<<< HEAD
 
 @import url('../blocks/buttons/buttons.css');
-=======
-@import url('../blocks/content-wrapper/content-wrapper.css');
-@import url('../blocks/content-block/content-block.css');
-@import url('../blocks/content-block/__content/content-block__content.css');
-@import url('../blocks/content-block/__header/content__header.css');
-@import url('../blocks/content-block/__title/content-block__title.css');
-@import url('../blocks/buttons/buttons.css');
-
-@import "../blocks/form/form.css";
-@import "../blocks/form/__input/form__input.css";
-@import "../blocks/form/__label/form__label.css";
-@import "../blocks/form/__pseudo-item/form__pseudo-item.css";
-@import "../blocks/form/__pseudo-text/form__pseudo-text.css";
-@import "../blocks/form/__radio/form__radio.css";
-@import "../blocks/form/__checkbox/form__checkbox.css";
-@import "../blocks/buttons/__result/buttons__result.css";
-@import "../blocks/item/__icon-test/item__icon-test.css";
-@import "../blocks/button/__result/button__result.css";
-@import "../blocks/button/__disabled/button__disabled.css";
-@import "../blocks/button/__result/_active/button__result_active.css";
->>>>>>> Developing

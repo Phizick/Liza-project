@@ -1,9 +1,5 @@
-<<<<<<< HEAD:blocks/result/__title/result__title.css
 .result__title {
   width: 100%;
-=======
-.content-block__result-title {
->>>>>>> Developing:blocks/content-block/__result-title/content-block__result-title.css
   font-weight: 700;
   font-size: 48px;
   line-height: 52px;
@@ -14,13 +10,8 @@
 }
 
 
-<<<<<<< HEAD:blocks/result/__title/result__title.css
 @media (max-width: 540px) {
   .result__title {
-=======
-@media (max-width: 430px) {
-  .content-block__result-title {
->>>>>>> Developing:blocks/content-block/__result-title/content-block__result-title.css
     font-size: 32px;
     line-height: 36px;
   }
