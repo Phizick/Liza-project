@@ -1,5 +1,4 @@
 .button__arrow_forward-grey {
-  flex-shrink: 0;
   background-image: url('../../../../images/icons/nav_hand_right_grey.svg');
   background-repeat: no-repeat;
   background-position: 116px center;
