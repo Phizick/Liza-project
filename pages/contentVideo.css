@@ -59,7 +59,7 @@
 /* content-block */
 @import url('../blocks/content-wrapper/content-wrapper.css');
 @import url('../blocks/content-block/content-block.css');
-@import url('../blocks/content-block/__content/content-block__content.css');
+@import url('../blocks/content-block/__header/content-block__header.css');
 @import url('../blocks/content-block/__title/content-block__title.css');
 @import url('../blocks/buttons/buttons.css');
 
