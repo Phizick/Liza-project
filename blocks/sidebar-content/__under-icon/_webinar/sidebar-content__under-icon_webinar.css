@@ -1,4 +1,5 @@
 .sidebar-content__under-icon_webinar {
+    flex-shrink: 0;
     background: url("../../../../images/icons/laptop.svg") no-repeat center;
     background-size: contain;
 }
