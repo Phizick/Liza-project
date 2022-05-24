@@ -1,0 +1,4 @@
+.contents {
+   grid-area: sidebar;
+   max-width: 872px;
+}
