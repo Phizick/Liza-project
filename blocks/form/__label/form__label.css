@@ -4,8 +4,3 @@
     align-items: flex-start;
     margin-top: 16px;
 }
-
-.form__label:last-child {
-    margin-bottom: 32px;
-}
-
