@@ -3,7 +3,7 @@
     margin-top: 32px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     box-sizing: border-box;
     background-size: cover;
     background: url('../../images/video_background_img.jpeg') center center / cover no-repeat;

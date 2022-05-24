@@ -1,4 +1,5 @@
 .sidebar-content__under-icon_lesson {
+    flex-shrink: 0;
     background: url("../../../../images/icons/lesson.svg") no-repeat center;
     background-size: contain;
 }
