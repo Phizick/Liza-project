@@ -1,5 +1,5 @@
 .result_color-rose {
-  background: rgba(255, 0, 0, 0.12);
-  border: 1.2px solid rgba(255, 0, 0, 0.6);
+  background: var(--red-opacity);
+  border: 1.2px solid var(--red-border);
   border-radius: 16px;
 }

@@ -1,3 +1,3 @@
 .result_text-rose {
-  color: #FF0000;
+  color: var(--red);
 }

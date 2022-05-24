@@ -6,7 +6,7 @@
   display: flex;
   grid-area: header;
   justify-content: space-between;
-  background-color: #fff;
+  background-color: var(--white);
   box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6),
     0px 4px 16px rgba(231, 232, 235, 0.6);
   min-height: 72px;

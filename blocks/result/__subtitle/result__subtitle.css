@@ -4,7 +4,7 @@
   font-size: 18px;
   line-height: 24px;
   text-align: center;
-  color: #212329;
+  color: var(--black);
   padding: 0;
   margin: 0;
 }

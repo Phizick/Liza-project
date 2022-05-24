@@ -2,7 +2,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 52px;
-  color: #212329;
+  color: var(--black);
   width: 100%;
   text-align: center;
   padding: 0;
