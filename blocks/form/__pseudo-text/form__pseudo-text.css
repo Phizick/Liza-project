@@ -4,5 +4,5 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    color: #212329;
+    color: var(--black);
 }

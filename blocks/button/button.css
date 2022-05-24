@@ -1,8 +1,8 @@
   .button {
     width: 184px;
     height: 48px;
-    background-color: #fff;
-    color: #fff;
+    background-color: var(--white);
+    color: var(--white);
     border-radius: 16px;
     font-weight: 500;
     font-size: 18px;

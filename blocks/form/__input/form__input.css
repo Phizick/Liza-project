@@ -17,5 +17,5 @@
 
 
 .form__input:checked~.form__pseudo-text {
-    color: #F06000;
+    color: var(--orange);
 }

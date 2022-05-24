@@ -9,3 +9,16 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+
+:root {
+  --white: #ffffff;
+  --black: #212329;
+  --orange: #FF6600;
+  --green: #008000;
+  --green-opacity: rgba(0, 128, 0, 0.12);
+  --green-border: rgba(0,128,0,0.6);
+  --red: #FF0000;
+  --red-opacity: rgba(255, 0, 0, 0.12);
+  --red-border: rgba(255, 0, 0, 0.6);
+
+}

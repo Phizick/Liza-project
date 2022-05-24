@@ -1,5 +1,5 @@
 .sidebar-content {
-    background: #ffffff;
+    background: var(--white);
     box-sizing: border-box;
     max-width: 424px;
     padding: 32px;
