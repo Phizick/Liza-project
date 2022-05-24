@@ -21,6 +21,7 @@
 
 @import url('../blocks/buttons/buttons.css');
 @import url('../blocks/button/button.css');
+@import url('../blocks/button/_no-active/button_no-active.css');
 @import url('../blocks/button/__arrow/_back-orang/button__arrow_back-orang.css');
 @import url('../blocks/button/__arrow/_back-white/button__arrow_back-white.css');
 @import url('../blocks/button/__arrow/_forward-white/button__arrow_forward-white.css');
