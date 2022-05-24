@@ -5,11 +5,12 @@
     padding: 32px;
     border-radius: 16px;
     box-shadow: 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);
+    grid-area: content;
 }
 
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
     .sidebar-content {
         max-width: 100%;
         width: 100%;
     }
-}
+} */

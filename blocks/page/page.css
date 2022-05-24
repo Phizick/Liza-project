@@ -1,4 +1,4 @@
-.page {
+/* .page {
   font-family: 'Golos', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -8,4 +8,25 @@
   text-rendering: optimizeLegibility;
   max-width: 1440px;
   margin: 0 auto;
+} */
+
+.page {
+  display: grid;
+	grid-template-columns: 36px minmax(min-content, calc(25% - 48px)) minmax(min-content, 75%) 36px;
+	grid-template-areas:
+  "header header header header header header header"
+  ". page-title page-title page-title page-title page-title."
+  ". sidebar sidebar content content . .";
+  
+  font-family: 'Golos', sans-serif;
+	box-sizing: border-box;
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	padding-bottom: 24px;
+	column-gap: 24px;
+
+	background-color: #fcfcfc;
+	color: #212329;
 }
