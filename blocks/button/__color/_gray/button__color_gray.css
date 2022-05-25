@@ -1,4 +1,5 @@
 .button__color_gray {
+  cursor: default;
   background-color: rgb(230, 231, 235);
   border: 1.2px solid #E6E7EB;
 }
