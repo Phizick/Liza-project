@@ -11,39 +11,44 @@ function resulted() {
         }
     }
     return count;
-}
+};
+
+function btnAddedVsbl() {
+    formBtn.classList.add("button_color_orang");
+    formBtn.classList.remove("button_text_gray", "button_color_gray");
+};
+
+function btnRemovedVsbl() {
+    formBtn.classList.add("button_text_gray", "button_color_gray");
+    formBtn.classList.remove("button_color_orang");
+};
 
 testMarker.forEach((item) => {
     this.addEventListener("click", () => {
         if (item.checked === true) {
-            formBtn.classList.add("button__color_orang");
-            formBtn.classList.remove("button__text_gray", "button__color_gray")
+            btnAddedVsbl();
         }
         if (resulted() <= 0) {
-            formBtn.classList.add("button__text_gray", "button__color_gray");
-            formBtn.classList.remove("button__color_orang")
+            btnRemovedVsbl();
         }
     });
 });
-let radioValueCount = 0
+
+let radioValueCount = 0;
 testMarkerCheck.forEach((item) => {
     this.addEventListener("click", () => {
         if (item.checked === true && radioValueCount >= 1) {
-            formBtn.classList.add("button__color_orang");
-            formBtn.classList.remove("button__text_gray", "button__color_gray")
+            btnAddedVsbl();
             radioValueCount++;
         }
         if (resulted() <= 0) {
-            formBtn.classList.add("button__text_gray", "button__color_gray");
-            formBtn.classList.remove("button__color_orang")
+            btnRemovedVsbl();
         }
     });
 });
 
 function countTest() {
-    if (formBtn.classList.contains("button__color_orang") & (resulted() >= 2) & questionFive.checked) {
+    if (formBtn.classList.contains("button_color_orang") & (resulted() >= 2) & questionFive.checked) {
         this.location.href = "testResultWin.html";
-    } else {
-        this.location.href = "testResultLoss.html";
-    }
-}
+    } else if (formBtn.classList.contains("button_color_orang")) this.location.href = "testResultLoss.html";
+};
