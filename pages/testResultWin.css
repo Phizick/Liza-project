@@ -78,10 +78,14 @@
 @import url('../blocks/form/__checkbox/form__checkbox.css');
 
 /* icon */
-@import url('../blocks/form/__icon/_fail-active/form__icon_fail-active.css');
-@import url('../blocks/form/__icon/_right/form__icon_right.css');
-@import url('../blocks/form/__icon/_fail/form__icon_fail.css');
-@import url('../blocks/form/__icon/_right-active/form__icon_right-active.css');
+@import url('../blocks/form/__checkbox/_fail-active/form__checkbox_fail-active.css');
+@import url('../blocks/form/__checkbox/_right/form__checkbox_right.css');
+@import url('../blocks/form/__checkbox/_fail/form__checkbox_fail.css');
+@import url('../blocks/form/__checkbox/_right-active/form__checkbox_right-active.css');
+@import url('../blocks/form/__radio/_fail-active/form__radio_fail-active.css');
+@import url('../blocks/form/__radio/_right/form__radio_right.css');
+@import url('../blocks/form/__radio/_fail/form__radio_fail.css');
+@import url('../blocks/form/__radio/_right-active/form__radio_right-active.css');
 
 /* text */
 @import url('../blocks/form/__pseudo-text/_fail/form__pseudo-text_fail.css');
@@ -90,9 +94,8 @@
 
 @import url('../blocks/result/result.css');
 @import url('../blocks/result/__title/result__title.css');
+@import url('../blocks/result/__title/_green/result__title_green.css');
 @import url('../blocks/result/__subtitle/result__subtitle.css');
+@import url('../blocks/result/__subtitle/_green/result__subtitle_green.css');
 @import url('../blocks/result/__subtitle-bold/result__subtitle-bold.css');
-@import url('../blocks/result/_color/result_color-green.css');
-@import url('../blocks/result/_color/result_color-rose.css');
-@import url('../blocks/result/_text/result_text-rose.css');
-@import url('../blocks/result/_text/result_text-green.css');
+@import url('../blocks/result/_color/result_color_green.css');
