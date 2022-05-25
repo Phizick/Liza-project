@@ -1,0 +1,8 @@
+.aside__filter-items {
+	max-height: 0px;
+	margin: 0;
+	opacity: 0;
+	list-style: none;
+	overflow: hidden;
+	transition: max-height 0.2s;
+}

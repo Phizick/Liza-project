@@ -1,0 +1,22 @@
+.card-list__heading {
+	width: 100%;
+	font-family: Golos, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    margin: 0;
+    padding: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	color: #212329;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (max-width: 1184px) {
+	.card-list__heading {
+		font-size: 20px;
+	}
+}

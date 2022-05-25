@@ -17,20 +17,25 @@ testMarker.forEach((item) => {
     this.addEventListener("click", () => {
         if (item.checked === true) {
             formBtn.classList.add("button__color_orang");
+            formBtn.classList.remove("button__text_gray", "button__color_gray")
         }
         if (resulted() <= 0) {
-            formBtn.classList.remove("button__color_orang");
+            formBtn.classList.add("button__text_gray", "button__color_gray");
+            formBtn.classList.remove("button__color_orang")
         }
     });
 });
-
+let radioValueCount = 0
 testMarkerCheck.forEach((item) => {
     this.addEventListener("click", () => {
         if (item.checked === true && radioValueCount >= 1) {
             formBtn.classList.add("button__color_orang");
+            formBtn.classList.remove("button__text_gray", "button__color_gray")
+            radioValueCount++;
         }
         if (resulted() <= 0) {
-            formBtn.classList.remove("button__color_orang");
+            formBtn.classList.add("button__text_gray", "button__color_gray");
+            formBtn.classList.remove("button__color_orang")
         }
     });
 });

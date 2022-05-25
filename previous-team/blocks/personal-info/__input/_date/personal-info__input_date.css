@@ -1,0 +1,8 @@
+.personal-info__input_date::-webkit-inner-spin-button {
+	display: none;
+}
+
+.personal-info__input_date::-webkit-calendar-picker-indicator {
+	display: none;
+	-webkit-appearance: none;
+}
