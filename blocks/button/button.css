@@ -9,10 +9,11 @@
     line-height: 24px;
     margin: 0;
     padding: 0;
+    transition: opacity 0.3s, outline 0.3s;
     cursor: pointer;
   }
 
   .button:hover {
     opacity: 0.6;
-    transition: opacity 0.8s linear;
+    outline: 1px solid var(--orange);
   }
