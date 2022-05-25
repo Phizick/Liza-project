@@ -21,19 +21,19 @@
 
 @import url('../blocks/buttons/buttons.css');
 @import url('../blocks/button/button.css');
-@import url('../blocks/button/__arrow/_back-orang/button__arrow_back-orang.css');
-@import url('../blocks/button/__arrow/_back-white/button__arrow_back-white.css');
-@import url('../blocks/button/__arrow/_forward-white/button__arrow_forward-white.css');
-@import url('../blocks/button/__arrow/_forward-grey/button__arrow_forward-grey.css');
-@import url('../blocks/button/__arrow/_circle-orange/button__arrow_circle-orang.css');
-@import url('../blocks/button/__arrow/_circle-white/button__arrow_circle-white.css');
-@import url('../blocks/button/__color/_orang/button__color_orang.css');
-@import url('../blocks/button/__color/_gray/button__color_gray.css');
-@import url('../blocks/button/__text/_orang/button__text_orang.css');
-@import url('../blocks/button/__text/_gray/button__text_gray.css');
-@import url('../blocks/button/__text/_start/button__text_start.css');
-@import url('../blocks/button/__text/_result/button__text_result.css');
-@import url('../blocks/button/__text/_end/button__text_end.css');
+@import url('../blocks/button/_notactive/button_notactive.css');
+@import url('../blocks/button/_arrow/button_arrow_back-orang.css');
+@import url('../blocks/button/_arrow/button_arrow_back-white.css');
+@import url('../blocks/button/_arrow/button_arrow_forward-white.css');
+@import url('../blocks/button/_arrow/button_arrow_forward-grey.css');
+@import url('../blocks/button/_arrow/button_arrow_circle-orang.css');
+@import url('../blocks/button/_arrow/button_arrow_circle-white.css');
+@import url('../blocks/button/_color/button_color_orang.css');
+@import url('../blocks/button/_color/button_color_gray.css');
+@import url('../blocks/button/_text/button_text_orang.css');
+@import url('../blocks/button/_text/button_text_gray.css');
+@import url('../blocks/button/_text/button_text_start.css');
+@import url('../blocks/button/_text/button_text_result.css');
 
 
 @import url('../blocks/breadcrumbs/breadcrumbs.css');
