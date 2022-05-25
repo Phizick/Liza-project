@@ -1,4 +1,4 @@
-.content-block-main {
+.content-block__about {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
