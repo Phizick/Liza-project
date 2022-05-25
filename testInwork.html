@@ -61,7 +61,7 @@
         <section class="content-block">
           <div class="content-block__header">
             <h2 class="content-block__title">Тест</h2>
-            <button type="button" aria-label="Вернуться к тесту" class="content-block__button-header">
+            <button type="button" aria-label="Вернуться к тесту" class="content-block__button-header" onclick="document.location='testAbout.html'">
               Посмотреть&nbsp;условия
             </button>
           </div>
@@ -99,13 +99,13 @@
                   <span class="form__pseudo-text">Поиск тел и их остатков с применением специально обученных собак</span></label>
           </form>
           <div class="content-block__button">
-            <button class="button button__color_gray button__text_gray button__text_result">
+            <button type="button" class="button button__color_gray button__text_gray button__text_result" id="btn-result" onclick="countTest()">
               Показать&nbsp;результат
             </button>
           </div>
         </section>
         <div class="buttons">
-          <button type="button" aria-label="Предыдущая страница." class="button button__arrow_back-orang button__text_orang">
+          <button type="button" aria-label="Предыдущая страница." class="button button__arrow_back-orang button__text_orang" onclick="document.location='testPreview.html'">
             Назад
           </button>
           <button type="button" aria-label="Следующая страница." class="button button__color_gray button__arrow_forward-grey button__text_gray">
@@ -272,6 +272,6 @@
       </aside>
     </main>
     <script src="scripts/index.js" defer></script>
-    <script src="scripts/testInwork.js" defer></script>
+    <script src="/scripts/testInwork.js"></script>
   </body>
 </html>
