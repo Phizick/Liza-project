@@ -1,6 +1,6 @@
 .button_arrow_circle-white {
   width: 176px;
-  background-image: url('../../../../images/icons/circulation_white.svg');
+  background-image: url('../../../images/icons/circulation_white.svg');
   background-repeat: no-repeat;
   background-position: 25px center;
   border: 1.2px solid var(--orange);
