@@ -20,6 +20,7 @@
 @import url('../blocks/content-block/__text-bold/content-block__text-bold.css');
 @import url('../blocks/content-block/__button/content-block__button.css');
 
+@import url('../blocks/button/_activaited/button_activated.css');
 @import url('../blocks/buttons/buttons.css');
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__arrow/_back-orang/button__arrow_back-orang.css');
@@ -77,8 +78,3 @@
 @import url('../blocks/form/__radio/form__radio.css');
 @import url('../blocks/form/__checkbox/form__checkbox.css');
 
-.button__color_orang {
-    background-color: var(--orange);
-    border: 1.2px solid var(--orange);
-    color: var(--white);
-} 
