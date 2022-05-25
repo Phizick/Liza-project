@@ -1,0 +1,7 @@
+.button_notactive {
+  cursor: default;
+}
+
+.button_notactive:hover {
+  opacity: 1;
+}
