@@ -1,0 +1,33 @@
+.card-list__description {
+	max-width: 448px;
+	display: flex;
+	margin-top: 32px;
+	margin-right: 56px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	overflow: hidden;
+}
+
+@media (max-width: 1400px) {
+	.card-list__description {
+		margin-right: 24px;
+	}
+}
+
+@media (max-width: 1320px) {
+	.card-list__description {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		justify-self: start;
+		max-width: 100%;
+		margin: 10px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.card-list__description {
+		align-items: center;
+	}
+}

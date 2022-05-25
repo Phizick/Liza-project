@@ -1,0 +1,14 @@
+.personal-info {
+	display: grid;
+	grid-template-columns: minmax(auto, 648px) minmax(auto, 312px);
+	gap: 24px;
+	width: 100%;
+	grid-area: content;
+}
+
+@media (max-width: 1280px) {
+	.personal-info {
+		grid-template-columns: 1fr;
+		justify-items: center;
+	}
+}

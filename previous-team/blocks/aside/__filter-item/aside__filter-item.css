@@ -1,0 +1,8 @@
+.aside__filter-item {
+	display: block;
+	box-sizing: content-box;
+}
+
+.aside__filter-item:not(:last-child) {
+	margin-bottom: 16px;
+}
