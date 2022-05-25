@@ -1,50 +1,44 @@
-const formBtn = document.querySelector(".button__result");
-
-
-const testMarker = document.getElementsByName('question');
+const formBtn = document.getElementById("btn-result");
+const testMarker = document.getElementsByName("question");
 const testMarkerCheck = document.getElementsByName("question__first");
-
 
 function resulted() {
     let count = 0;
     for (i = 0; i < testMarkerCheck.length; i++) {
-        let check = testMarkerCheck[i];
+        const check = testMarkerCheck[i];
         if (check.checked === true) {
-            count++
+            count++;
         }
     }
     return count;
 }
-let radioValueCount = 0
-testMarker.forEach(item => {
-    this.addEventListener('click', () => {
+
+testMarker.forEach((item) => {
+    this.addEventListener("click", () => {
         if (item.checked === true) {
-            formBtn.classList.add("button__result_active");
-            radioValueCount++;
-        } if (resulted() <= 0) {
-            formBtn.classList.remove("button__result_active")
+            formBtn.classList.add("button__color_orang");
         }
-    })
-})
-
-testMarkerCheck.forEach(item => {
-    this.addEventListener('click', () => {
-        if ((item.checked === true) && (radioValueCount >= 1)) {
-            formBtn.classList.add("button__result_active");
-        } if (resulted() <= 0) {
-            formBtn.classList.remove("button__result_active")
+        if (resulted() <= 0) {
+            formBtn.classList.remove("button__color_orang");
         }
-    })
-})
+    });
+});
 
+testMarkerCheck.forEach((item) => {
+    this.addEventListener("click", () => {
+        if (item.checked === true && radioValueCount >= 1) {
+            formBtn.classList.add("button__color_orang");
+        }
+        if (resulted() <= 0) {
+            formBtn.classList.remove("button__color_orang");
+        }
+    });
+});
 
 function countTest() {
-    if (formBtn.classList.contains("button__result_active")
-        && (resulted() >= 2)
-        & questionFive.checked) {
-        this.location.href = 'testPassed.html';
+    if (formBtn.classList.contains("button__color_orang") & (resulted() >= 2) & questionFive.checked) {
+        this.location.href = "testResultWin.html";
     } else {
-        this.location.href = 'testFailed.html'
+        this.location.href = "testResultLoss.html";
     }
 }
-
