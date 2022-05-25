@@ -5,4 +5,5 @@
   flex-wrap: wrap;
   flex-direction: column;
   gap: 16px;
+  width: 100%;
 }
