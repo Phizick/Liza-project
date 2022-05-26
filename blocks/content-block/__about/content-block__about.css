@@ -1,0 +1,7 @@
+.content-block__about {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}

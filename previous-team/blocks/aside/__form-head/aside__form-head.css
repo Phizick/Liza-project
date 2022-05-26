@@ -1,0 +1,20 @@
+.aside__form-head {
+	margin: 0;
+	padding-bottom: 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 1024px) {
+	.aside__form-head {
+		justify-content: flex-start;
+	}
+}
+
+@media (max-width: 1024px) {
+	.aside__form-head {
+		justify-content: space-between;
+	}
+}

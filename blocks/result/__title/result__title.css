@@ -1,0 +1,17 @@
+.result__title {
+  width: 100%;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  color: var(--black);
+  text-align: center;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+@media (max-width: 540px) {
+  .result__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}

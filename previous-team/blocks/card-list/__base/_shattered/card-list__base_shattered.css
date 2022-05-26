@@ -1,0 +1,19 @@
+@keyframes shatterElement {
+	from {
+		opacity: 1;
+		visibility: visible;
+	}
+	to {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+.card-list__base_shattered {
+	opacity: 0;
+	visibility: hidden;
+	animation-name: shatterElement;
+	animation-duration: 0.2s;
+	animation-fill-mode: forwards;
+	display: none;
+}

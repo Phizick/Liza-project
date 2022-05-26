@@ -1,0 +1,15 @@
+.buttons {
+  margin: 24px 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-right: 32px;
+}
+
+@media screen and (max-width: 442.98px) {
+  .buttons {
+    justify-content: center;
+    padding: 0;
+  }
+}

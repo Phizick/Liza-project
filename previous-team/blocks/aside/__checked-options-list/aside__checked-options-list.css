@@ -1,0 +1,18 @@
+.aside__checked-options-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 32px 0 0 0;
+	list-style: none;
+}
+
+@media (max-width: 1024px) {
+	.aside__checked-options-list {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+		justify-self: start;
+		align-self: flex-start;
+		padding: 24px;
+	}
+}

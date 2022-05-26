@@ -1,0 +1,23 @@
+@font-face {
+  src: 
+    url(../vendor/fonts/Golos/Golos_700.woff) format('woff'),
+    url(../vendor/fonts/Golos/Golos_700.woff2) format('woff2');
+  font-family: 'Golos';
+  font-weight: 700;
+}
+
+@font-face {
+  src: 
+    url(../vendor/fonts/Golos/Golos_400.woff) format('woff'),
+    url(../vendor/fonts/Golos/Golos_400.woff2) format('woff2');
+  font-family: 'Golos';
+  font-weight: 400;
+}
+
+@font-face {
+  src: 
+    url(../vendor/fonts/Golos/Golos_500.woff) format('woff'),
+    url(../vendor/fonts/Golos/Golos_500.woff2) format('woff2');
+  font-family: 'Golos';
+  font-weight: 500;
+}

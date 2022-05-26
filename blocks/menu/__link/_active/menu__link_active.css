@@ -1,3 +1,5 @@
 .menu__link_active {
-	color: #f06000;
+
+	color: var(--orange);
+
 }

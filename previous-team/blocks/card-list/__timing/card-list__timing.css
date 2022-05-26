@@ -1,0 +1,32 @@
+.card-list__timing {
+	width: 100%;
+	max-width: 224px;
+	min-width: 142px;
+	display: flex;
+    flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-end;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    margin-right: 32px;
+   	margin-top: 32px;
+}
+
+@media (max-width: 1320px) {
+	.card-list__timing {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+		align-self: end;
+		margin: 10px;
+		margin-right: 24px;
+		margin-bottom: 24px;
+		align-items: flex-start;
+	}
+}
+
+@media (max-width: 768px) {
+	.card-list__timing {
+		align-self: flex-start;
+	}
+}
