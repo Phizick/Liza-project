@@ -1,7 +1,7 @@
 // const filterBlockHead = document.querySelectorAll(".sidebar-content__filter-block-head");
 const checkedItems = document.querySelectorAll(".sidebar-content__checkbox-options");
 const checkedList = document.querySelector(".sidebar-content__checked-options-list");
-const checkedGroupItems = document.querySelectorAll(".aside__checkbox-options_group");
+// const checkedGroupItems = document.querySelectorAll(".aside__checkbox-options_group");
 const resetAllBtn = document.querySelector(".sidebar-content__reset-button");
 
 // filterBlockHead.forEach(item => {
@@ -18,8 +18,8 @@ checkedItems.forEach((item) =>
 );
 
 resetAllBtn.addEventListener("click", () => {
-    checkedGroupItems.forEach((item) => (item.checked = false));
-    showCard();
+    // checkedGroupItems.forEach((item) => (item.checked = false));
+    // showCard();
 
     const cardBox = document.querySelectorAll(".card-list__base");
 
