@@ -1,0 +1,12 @@
+.personal-info__form {
+	box-sizing: border-box;
+	display: grid;
+	row-gap: 32px;
+	width: 100%;
+	margin: 0;
+	padding: 32px;
+	background-color: #fff;
+	border-radius: 16px;
+	box-shadow: 0px 0px 4px rgba(231, 232, 235, 0.6),
+		0px 4px 16px rgba(231, 232, 235, 0.6);
+}

@@ -1,0 +1,17 @@
+.card-list__timing-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.card-list__timing-item:nth-last-of-type(1){
+	margin-top: 16px;
+}
+
+@media (max-width: 1184px) {
+	.card-list__timing-item:nth-last-of-type(1) {
+		margin-top: 12px;
+	}
+}
