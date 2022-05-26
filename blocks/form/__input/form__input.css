@@ -6,16 +6,16 @@
     clip: rect(0 0 0 0);
 }
 
-.form__input:checked+.form__checkbox {
+.form__input:checked+.form__input-checkbox {
     background: url(../../../images/icons/checkbox-rectangle-orange.svg) center / contain no-repeat;
 }
 
-.form__input:checked+.form__radio {
+.form__input:checked+.form__input-radio {
     background: url(../../../images/icons/radio-circle-orange.svg) center / contain no-repeat;
 }
 
 
 
-.form__input:checked~.form__pseudo-text {
+.form__input:checked~.form__input-pseudo-text {
     color: var(--orange);
 }

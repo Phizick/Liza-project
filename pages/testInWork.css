@@ -75,6 +75,6 @@
 @import url('../blocks/form/__input/form__input.css');
 @import url('../blocks/form/__label/form__label.css');
 @import url('../blocks/form/__pseudo-item/form__pseudo-item.css');
-@import url('../blocks/form/__pseudo-text/form__pseudo-text.css');
-@import url('../blocks/form/__radio/form__radio.css');
-@import url('../blocks/form/__checkbox/form__checkbox.css');
+@import url('../blocks/form/__input-pseudo-text/form__input-pseudo-text.css');
+@import url('../blocks/form/__input-radio/form__input-radio.css');
+@import url('../blocks/form/__input-checkbox/form__input-checkbox.css');
