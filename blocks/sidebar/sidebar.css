@@ -1,0 +1,27 @@
+.sidebar {
+	grid-area: sidebar-left;
+	width: 100%;
+	height: max-content;
+}
+
+@media (max-width: 1024px) {
+	.sidebar {
+		grid-template-columns: repeat(2, auto);
+		grid-template-rows: minmax(min-content, 320px);
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.sidebar {
+		grid-template-columns: repeat(2, auto);
+		grid-template-rows: minmax(min-content, 320px);
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-top: 24px;
+		margin-bottom: 24px;
+	}
+}

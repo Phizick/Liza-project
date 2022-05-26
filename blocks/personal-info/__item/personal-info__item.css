@@ -1,0 +1,31 @@
+.personal-info__item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	font-family: Golos, "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 133%;
+	color: #9397a3;
+}
+
+.personal-info__item::after {
+	position: absolute;
+	content: "";
+	right: 14px;
+	bottom: 0;
+	height: 48px;
+	width: 20px;
+	background-color: transparent;
+	border: none;
+	background-image: url(../../../images/profile_edit-icon.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	cursor: text;
+}
+
+.personal-info__item_photo::after {
+	background-image: url(../../../../images/profile_attach-icon.svg);
+}

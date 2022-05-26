@@ -1,0 +1,13 @@
+.card-list__base {
+	position: relative;
+	grid-column: 1 / 2;
+	max-height: 240px;
+}
+
+@media (max-width: 1320px) {
+	.card-list__base {
+		max-height: max-content;
+	}
+}
+
+
