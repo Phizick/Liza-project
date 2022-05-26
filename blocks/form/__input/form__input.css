@@ -7,14 +7,12 @@
 }
 
 .form__input:checked+.form__input-checkbox {
-    background: url(../../../images/icons/checkbox-rectangle-orange.svg) center / contain no-repeat;
+    background-image: url(../../../images/icons/checkbox-rectangle-orange.svg);
 }
 
 .form__input:checked+.form__input-radio {
-    background: url(../../../images/icons/radio-circle-orange.svg) center / contain no-repeat;
+    background-image: url(../../../images/icons/radio-circle-orange.svg);
 }
-
-
 
 .form__input:checked~.form__input-pseudo-text {
     color: var(--orange);
