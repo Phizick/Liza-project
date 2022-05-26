@@ -1,7 +1,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 
-@import url(../blocks/page_s/page_s.css);
+@import url(../blocks/page/_compatibility/page_compatibility.css);
+@import url('../blocks/page/page.css');
 
 /* header */
 
