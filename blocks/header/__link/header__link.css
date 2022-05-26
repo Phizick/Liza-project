@@ -1,21 +1,17 @@
 .header__link {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
-  color: var(--black);
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-family: Golos, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	color: #212329;
+	text-decoration: none;
 }
 
 .header__link:hover {
-  opacity: 0.8;
-  transition: opacity 0.2s linear;
-}
-
-@media (max-width: 590px) {
-  .header__link {
-    margin-bottom: 30px;
-  }
+	cursor: pointer;
+	opacity: 0.8;
 }
