@@ -18,8 +18,8 @@
 
 /* button */
 @import url(../blocks/button/button.css);
-
-
+@import url(../blocks/button/_color/button_color_gray.css);
+@import url(../blocks/button/_notactive/button_notactive.css);
 /* title */
 
 @import url(../blocks/page-title/page-title.css);
