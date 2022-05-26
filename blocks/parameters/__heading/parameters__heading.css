@@ -1,5 +1,5 @@
 .parameters__heading {
-	font-family: Golos;
+	font-family: Golos, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -7,4 +7,3 @@
 	margin-block-start: 0px;
 	margin-block-end: 0px;
 }
-
