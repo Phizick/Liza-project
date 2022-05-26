@@ -20,30 +20,6 @@
 
 /*SIDEBAR*/
 @import url(../blocks/sidebar/sidebar.css);
-@import url(../blocks/aside/aside.css);
-@import url(../blocks/aside/__checked-item/aside__checked-item.css);
-@import url(../blocks/aside/__checked-options-list/aside__checked-options-list.css);
-@import url(../blocks/aside/__deselect-option/aside__deselect-option.css);
-@import url(../blocks/aside/__filter-block-name/aside__filter-block-name.css);
-@import url(../blocks/aside/__filter-block/aside__filter-block.css);
-@import url(../blocks/aside/__filter-form/aside__filter-form.css);
-@import url(../blocks/aside/__filter-item/aside__filter-item.css);
-@import url(../blocks/aside/__filter-items/aside__filter-items.css);
-@import url(../blocks/aside/__filter-list/aside__filter-list.css);
-@import url(../blocks/aside/__name-checked-option/aside__name-checked-option.css);
-@import url(../blocks/aside/__checkbox/aside__checkbox.css);
-@import url(../blocks/aside/__checkbox-options/aside__checkbox-options.css);
-@import url(../blocks/aside/__checkbox-pseudo/aside__checkbox-pseudo.css);
-@import url(../blocks/aside/__checkbox-label/aside__checkbox-label.css);
-@import url(../blocks/aside/__reset-button/aside__reset-button.css);
-@import url(../blocks/aside/__reset-button/_active/aside__reset-button_active.css);
-@import url(../blocks/aside/__form-head/aside__form-head.css);
-@import url(../blocks/aside/__title/aside__title.css);
-@import url(../blocks/aside/__accordion-item-toggler/aside__accordion-item-toggler.css);
-@import url(../blocks/aside/__filter-block-head/aside__filter-block-head.css);
-@import url(../blocks/aside/__filter-items/_open/aside__filter-items_open.css);
-@import url(../blocks/aside/__filter-block/_active/aside__filter-block_active.css);
-@import url(../blocks/aside/__deselect-button/aside__deselect-button.css);
 @import url(../blocks/sidebar-content/__filter-form/sidebar-content__filter-form.css);
 
 /* sidebar */
@@ -56,16 +32,10 @@
 @import url('../blocks/sidebar-content/__order-text/sidebar-content__order-text.css');
 @import url('../blocks/sidebar-content/__title/sidebar-content__title.css');
 @import url('../blocks/sidebar-content/__under-icon/sidebar-content__under-icon.css');
-@import url('../blocks/sidebar-content/__under-icon/_test/sidebar-content__under-icon_test.css');
-@import url('../blocks/sidebar-content/__under-icon/_video-target/sidebar-content__under-icon_video-target.css');
 @import url('../blocks/sidebar-content/__under-item/sidebar-content__under-item.css');
 @import url('../blocks/sidebar-content/__under-list/sidebar-content__under-list.css');
 @import url('../blocks/sidebar-content/__under-list/_visible/sidebar-content__under-list_visible.css');
 @import url('../blocks/sidebar-content/__under-text/sidebar-content__under-text.css');
-@import url('../blocks/sidebar-content/__under-text/_target/sidebar-content__under-text_target.css');
-@import url('../blocks/sidebar-content/__under-icon/_test-target/sidebar-content__under-icon_test-target.css');
-@import url('../blocks/sidebar-content/__under-icon/_lesson/sidebar-content__under-icon_lesson.css');
-@import url('../blocks/sidebar-content/__under-icon/_webinar/sidebar-content__under-icon_webinar.css');
 @import url(../blocks/sidebar-content/__reset-button/sidebar-content__reset-button.css);
 @import url(../blocks/sidebar-content/__reset-button/_active/sidebar-content__reset-button_active.css);
 @import url(../blocks/sidebar-content/__checkbox/sidebar-content__checkbox.css);

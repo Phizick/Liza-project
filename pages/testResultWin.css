@@ -77,8 +77,6 @@
 @import url('../blocks/form/__input-checkbox/form__input-checkbox.css');
 
 /* icon */
-@import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_fail');
-@import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_fail-active');
 @import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_correct.css');
 @import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_correct-active.css');
 @import url('../blocks/form/__input-radio/_style/form__input-radio_style_correct.css');
