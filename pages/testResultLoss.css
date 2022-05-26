@@ -93,7 +93,7 @@
 @import url('../blocks/result/result.css');
 @import url('../blocks/result/_color/result_color_rose.css');
 @import url('../blocks/result/__title/result__title.css');
-@import url('../blocks/result/__title/_rose/result__title_rose.css');
+@import url('../blocks/result/__title/_color/result__title_color_rose.css');
 @import url('../blocks/result/__subtitle/result__subtitle.css');
-@import url('../blocks/result/__subtitle/_rose/result__subtitle_rose.css');
+@import url('../blocks/result/__subtitle/_color/result__subtitle_color_rose.css');
 @import url('../blocks/result/__subtitle-bold/result__subtitle-bold.css');
