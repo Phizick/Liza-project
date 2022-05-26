@@ -48,16 +48,17 @@
 @import url('../blocks/sidebar-content/__order-text/sidebar-content__order-text.css');
 @import url('../blocks/sidebar-content/__title/sidebar-content__title.css');
 @import url('../blocks/sidebar-content/__under-icon/sidebar-content__under-icon.css');
-@import url('../blocks/sidebar-content/__under-icon/_test/sidebar-content__under-icon_test.css');
-@import url('../blocks/sidebar-content/__under-icon/_video-target/sidebar-content__under-icon_video-target.css');
+@import url('../blocks/sidebar-content/__under-icon/_status/_lesson/sidebar-content__under-icon_status_lesson.css');
+@import url('../blocks/sidebar-content/__under-icon/_status/_ok/sidebar-content__under-icon_status_ok.css');
+@import url('../blocks/sidebar-content/__under-icon/_status/_test-target/sidebar-content__under-icon_status_test-target.css');
+@import url('../blocks/sidebar-content/__under-icon/_status/_test/sidebar-content__under-icon_status_test.css');
+@import url('../blocks/sidebar-content/__under-icon/_status/_video-target/sidebar-content__under-icon_status_video-target.css');
+@import url('../blocks/sidebar-content/__under-icon/_status/_webinar/sidebar-content__under-icon_status_webinar.css');
 @import url('../blocks/sidebar-content/__under-item/sidebar-content__under-item.css');
 @import url('../blocks/sidebar-content/__under-list/sidebar-content__under-list.css');
 @import url('../blocks/sidebar-content/__under-list/_visible/sidebar-content__under-list_visible.css');
 @import url('../blocks/sidebar-content/__under-text/sidebar-content__under-text.css');
-@import url('../blocks/sidebar-content/__under-text/_target/sidebar-content__under-text_target.css');
-@import url('../blocks/sidebar-content/__under-icon/_test-target/sidebar-content__under-icon_test-target.css');
-@import url('../blocks/sidebar-content/__under-icon/_lesson/sidebar-content__under-icon_lesson.css');
-@import url('../blocks/sidebar-content/__under-icon/_webinar/sidebar-content__under-icon_webinar.css');
+@import url('../blocks/sidebar-content/__under-text/_color/_target/sidebar-content__under-text_color-target.css');
 
 /* content-block */
 @import url('../blocks/content-wrapper/content-wrapper.css');
