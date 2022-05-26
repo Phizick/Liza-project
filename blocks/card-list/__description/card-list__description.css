@@ -15,7 +15,7 @@
 	}
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1385px) {
 	.card-list__description {
 		grid-column: 2 / 3;
 		grid-row: 1 / 2;
@@ -29,5 +29,6 @@
 @media (max-width: 768px) {
 	.card-list__description {
 		align-items: center;
+		margin: 10px;
 	}
 }

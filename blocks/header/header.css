@@ -11,6 +11,7 @@
     0px 4px 16px rgba(231, 232, 235, 0.6);
   min-height: 72px;
   padding: 24px 60px;
+  z-index: 2;
 }
 
 @media (max-width: 590px) {
@@ -19,3 +20,4 @@
     align-items: center;
     padding: 24px 30px;
   }
+}

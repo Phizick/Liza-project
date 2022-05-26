@@ -4,7 +4,7 @@
 	grid-template-areas:
 		"header header header header"
 		". page-title page-title . "
-		". sidebar-left content .";
+		". sidebar content .";
 	box-sizing: border-box;
 	width: 100%;
 	padding: 0;
@@ -21,7 +21,7 @@
 		grid-template-areas:
 			"header header header header"
 			". page-title page-title . "
-			". sidebar-left content .";
+			". sidebar content .";
 	}
 }
 
@@ -31,7 +31,7 @@
 		grid-template-areas:
 			"header header header"
 			". page-title ."
-			". sidebar-left ."
+			". sidebar ."
 			". content .";
 		column-gap: 12px;
 	}

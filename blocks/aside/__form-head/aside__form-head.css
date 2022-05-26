@@ -7,14 +7,3 @@
 	align-items: center;
 }
 
-@media (max-width: 1024px) {
-	.aside__form-head {
-		justify-content: flex-start;
-	}
-}
-
-@media (max-width: 1024px) {
-	.aside__form-head {
-		justify-content: space-between;
-	}
-}
