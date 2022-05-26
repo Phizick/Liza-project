@@ -44,11 +44,41 @@
 @import url(../blocks/aside/__filter-items/_open/aside__filter-items_open.css);
 @import url(../blocks/aside/__filter-block/_active/aside__filter-block_active.css);
 @import url(../blocks/aside/__deselect-button/aside__deselect-button.css);
+@import url(../blocks/sidebar-content/__filter-form/sidebar-content__filter-form.css);
 
+/* sidebar */
+@import url('../blocks/sidebar-content/sidebar-content.css');
+@import url('../blocks/sidebar-content/__order-body/sidebar-content__order-body.css');
+@import url('../blocks/sidebar-content/__order-icon/sidebar-content__order-icon.css');
+@import url('../blocks/sidebar-content/__order-icon/_active/sidebar-content__order-icon_active.css');
+@import url('../blocks/sidebar-content/__order-item/sidebar-content__order-item.css');
+@import url('../blocks/sidebar-content/__order-list/sidebar-content__order-list.css');
+@import url('../blocks/sidebar-content/__order-text/sidebar-content__order-text.css');
+@import url('../blocks/sidebar-content/__title/sidebar-content__title.css');
+@import url('../blocks/sidebar-content/__under-icon/sidebar-content__under-icon.css');
+@import url('../blocks/sidebar-content/__under-icon/_test/sidebar-content__under-icon_test.css');
+@import url('../blocks/sidebar-content/__under-icon/_video-target/sidebar-content__under-icon_video-target.css');
+@import url('../blocks/sidebar-content/__under-item/sidebar-content__under-item.css');
+@import url('../blocks/sidebar-content/__under-list/sidebar-content__under-list.css');
+@import url('../blocks/sidebar-content/__under-list/_visible/sidebar-content__under-list_visible.css');
+@import url('../blocks/sidebar-content/__under-text/sidebar-content__under-text.css');
+@import url('../blocks/sidebar-content/__under-text/_target/sidebar-content__under-text_target.css');
+@import url('../blocks/sidebar-content/__under-icon/_test-target/sidebar-content__under-icon_test-target.css');
+@import url('../blocks/sidebar-content/__under-icon/_lesson/sidebar-content__under-icon_lesson.css');
+@import url('../blocks/sidebar-content/__under-icon/_webinar/sidebar-content__under-icon_webinar.css');
+@import url(../blocks/sidebar-content/__reset-button/sidebar-content__reset-button.css);
+@import url(../blocks/sidebar-content/__reset-button/_active/sidebar-content__reset-button_active.css);
+@import url(../blocks/sidebar-content/__checkbox/sidebar-content__checkbox.css);
+@import url(../blocks/sidebar-content/__checkbox-options/sidebar-content__checkbox-options.css);
+@import url(../blocks/sidebar-content/__checkbox-pseudo/sidebar-content__checkbox-pseudo.css);
 
+@import url(../blocks/sidebar-content/__checked-item/sidebar-content__checked-item.css);
 @import url(../blocks/articles/articles.css);
-
-
+@import url(../blocks/sidebar-content/__form-head/sidebar-content__form-head);
+@import url(../blocks/sidebar-content/__checkbox-label/sidebar-content__checkbox-label.css);
+@import url(../blocks/sidebar-content/__checked-options-list/sidebar-content__checked-options-list.css);
+@import url(../blocks/sidebar-content/__filter-block-head/sidebar-content__filter-block-head.css);
+@import url(../blocks/sidebar-content/__deselect-option/sidebar-content__deselect-option.css);
 
 @import url(../blocks/card-list/card-list.css);
 @import url(../blocks/card-list/__base/card-list__base.css);
