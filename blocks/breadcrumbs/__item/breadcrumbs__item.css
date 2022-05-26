@@ -1,9 +1,0 @@
-.breadcrumbs__item {
-  list-style: none;
-  display: block;
-  color: var(--black);
-}
-
-.breadcrumbs__item:last-child {
-  color: var(--silver);
-}
