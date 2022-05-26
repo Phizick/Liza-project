@@ -1,7 +1,7 @@
 // const filterBlockHead = document.querySelectorAll(".sidebar-content__filter-block-head");
 const checkedItems = document.querySelectorAll(".sidebar-content__checkbox-options");
 const checkedList = document.querySelector(".sidebar-content__checked-options-list");
-// const checkedGroupItems = document.querySelectorAll(".aside__checkbox-options_group");
+const checkedGroupItems = document.querySelectorAll(".aside__checkbox-options_group");
 const resetAllBtn = document.querySelector(".sidebar-content__reset-button");
 
 // filterBlockHead.forEach(item => {
@@ -18,8 +18,8 @@ checkedItems.forEach((item) =>
 );
 
 resetAllBtn.addEventListener("click", () => {
-    // checkedGroupItems.forEach((item) => (item.checked = false));
-    // showCard();
+    checkedGroupItems.forEach((item) => (item.checked = false));
+    showCard();
 
     const cardBox = document.querySelectorAll(".card-list__base");
 
@@ -36,7 +36,7 @@ resetAllBtn.addEventListener("click", () => {
 function createCheckedItem(evt) {
     const checkedItemTemplate = document.querySelector(".checked-item-template").content;
     const checkedItem = checkedItemTemplate.querySelector(".sidebar-content__checked-item").cloneNode(true);
-    const deselectButton = checkedItem.querySelector(".aside__deselect-button");
+    const deselectButton = checkedItem.querySelector(".sidebar-content__deselect-button");
     const checkedName = checkedItem.querySelector(".sidebar-content__name-checked-option");
     const itemCollection = checkedList.querySelectorAll(".sidebar-content__checked-item");
     checkedName.textContent = evt.value;
