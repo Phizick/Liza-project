@@ -1,9 +1,0 @@
-.card-list__button_disable {
-	background-color: #E6E7EB;
-	color: #9397A3;
-}
-
-
-.card-list__button_disable:hover {
-	cursor: default;
-}
