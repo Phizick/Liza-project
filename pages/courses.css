@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url('../vendor/variables.css');
 
 @import url(../blocks/page/_compatibility/page_compatibility.css);
 @import url('../blocks/page/page.css');
@@ -66,6 +67,3 @@
 @import url(../blocks/card-list/__button/_registration/card-list__button_registration.css);
 @import url(../blocks/card-list/__button/_initiate/card-list__button_initiate.css);
 @import url(../blocks/card-list/__button/_disable/card-list__button_disable.css);
-
-
-

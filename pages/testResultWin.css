@@ -69,26 +69,25 @@
 @import url('../blocks/form/form.css');
 @import url('../blocks/form/__question-title/form__question-title.css');
 @import url('../blocks/form/__input/form__input.css');
-@import url('../blocks/form/__label/form__label.css');
-@import url('../blocks/form/__label/_cursor-non/form__label_cursor-non.css');
+@import url('../blocks/form/__input-label/form__input-label.css');
+@import url('../blocks/form/__input-label/_cursor-non/form__input-label_cursor-non.css');
 @import url('../blocks/form/__pseudo-item/form__pseudo-item.css');
-@import url('../blocks/form/__pseudo-text/form__pseudo-text.css');
-@import url('../blocks/form/__radio/form__radio.css');
-@import url('../blocks/form/__checkbox/form__checkbox.css');
+@import url('../blocks/form/__input-pseudo-text/form__input-pseudo-text.css');
+@import url('../blocks/form/__input-radio/form__input-radio.css');
+@import url('../blocks/form/__input-checkbox/form__input-checkbox.css');
 
 /* icon */
-@import url('../blocks/form/__checkbox/_fail-active/form__checkbox_fail-active.css');
-@import url('../blocks/form/__checkbox/_right/form__checkbox_right.css');
-@import url('../blocks/form/__checkbox/_fail/form__checkbox_fail.css');
-@import url('../blocks/form/__checkbox/_right-active/form__checkbox_right-active.css');
-@import url('../blocks/form/__radio/_fail-active/form__radio_fail-active.css');
-@import url('../blocks/form/__radio/_right/form__radio_right.css');
-@import url('../blocks/form/__radio/_fail/form__radio_fail.css');
-@import url('../blocks/form/__radio/_right-active/form__radio_right-active.css');
-
+@import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_fail');
+@import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_fail-active');
+@import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_correct.css');
+@import url('../blocks/form/__input-checkbox/_style/form__input-checkbox_style_correct-active.css');
+@import url('../blocks/form/__input-radio/_style/form__input-radio_style_correct.css');
+@import url('../blocks/form/__input-radio/_style/form__input-radio_style_correct-active.css');
+@import url('../blocks/form/__input-radio/_style/form__input-radio_style_fail.css');
+@import url('../blocks/form/__input-radio/_style/form__input-radio_style_fail-active.css');
 /* text */
-@import url('../blocks/form/__pseudo-text/_fail/form__pseudo-text_fail.css');
-@import url('../blocks/form/__pseudo-text/_right/form__pseudo-text_right.css');
+@import url('../blocks/form/__input-pseudo-text/_style/form__input-pseudo-text_style_fail.css');
+@import url('../blocks/form/__input-pseudo-text/_style/form__input-pseudo-text_style_correct.css');
 
 
 @import url('../blocks/result/result.css');

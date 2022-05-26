@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url('../vendor/variables.css');
 
 @import url(../blocks/page/_compatibility/page_compatibility.css);
 @import url('../blocks/page/page.css');
@@ -57,5 +58,3 @@
 @import url(../blocks/disclaimer-info/__text/disclaimer-info__text.css);
 @import url(../blocks/disclaimer-info/__list/disclaimer-info__list.css);
 @import url(../blocks/disclaimer-info/__list-item/disclaimer-info__list-item.css);
-
-
