@@ -11,17 +11,17 @@ function resulted() {
         }
     }
     return count;
-};
+}
 
 function btnAddedVsbl() {
     formBtn.classList.add("button_color_orang");
     formBtn.classList.remove("button_text_gray", "button_color_gray");
-};
+}
 
 function btnRemovedVsbl() {
     formBtn.classList.add("button_text_gray", "button_color_gray");
     formBtn.classList.remove("button_color_orang");
-};
+}
 
 testMarker.forEach((item) => {
     this.addEventListener("click", () => {
@@ -51,4 +51,4 @@ function countTest() {
     if (formBtn.classList.contains("button_color_orang") & (resulted() >= 2) & questionFive.checked) {
         this.location.href = "testResultWin.html";
     } else if (formBtn.classList.contains("button_color_orang")) this.location.href = "testResultLoss.html";
-};
+}
