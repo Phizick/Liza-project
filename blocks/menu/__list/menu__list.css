@@ -7,8 +7,10 @@
 	align-items: center;
 }
 
+
 @media (max-width: 590px) {
 	.menu__list {
 		align-items: center;
 	}
 }
+
