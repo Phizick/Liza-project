@@ -1,0 +1,11 @@
+.card-list__button_initiate {
+	border: 1px #E6E7EB solid;
+	background-color: #fff;
+	color: #ff6600;
+	transform: 2s linear;
+}
+
+.card-list__button_initiate:hover {
+	border: 1px #ff6600 solid;
+	transform: scale(1.008);
+}
