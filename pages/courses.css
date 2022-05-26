@@ -71,13 +71,16 @@
 @import url(../blocks/sidebar-content/__checkbox/sidebar-content__checkbox.css);
 @import url(../blocks/sidebar-content/__checkbox-options/sidebar-content__checkbox-options.css);
 @import url(../blocks/sidebar-content/__checkbox-pseudo/sidebar-content__checkbox-pseudo.css);
-
+@import url(../blocks/sidebar-content/__deselect-button/sidebar-content__deselect-button.css);
 @import url(../blocks/sidebar-content/__checked-item/sidebar-content__checked-item.css);
 @import url(../blocks/articles/articles.css);
-@import url(../blocks/sidebar-content/__form-head/sidebar-content__form-head);
+@import url(../blocks/sidebar-content/__form-head/sidebar-content__form-head.css);
 @import url(../blocks/sidebar-content/__checkbox-label/sidebar-content__checkbox-label.css);
 @import url(../blocks/sidebar-content/__checked-options-list/sidebar-content__checked-options-list.css);
 @import url(../blocks/sidebar-content/__filter-block-head/sidebar-content__filter-block-head.css);
+@import url(../blocks/sidebar-content/__deselect-option/sidebar-content__deselect-option.css);
+@import url(../blocks/sidebar-content/__name-checked-option/sidebar-content__name-checked-option.css);
+
 @import url(../blocks/sidebar-content/__deselect-option/sidebar-content__deselect-option.css);
 
 @import url(../blocks/card-list/card-list.css);
