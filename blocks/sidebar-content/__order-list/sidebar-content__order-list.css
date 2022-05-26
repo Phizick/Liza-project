@@ -5,11 +5,7 @@
     margin-bottom: 0; 
 }
 
-.content_disabled {
-    padding: 0;
-    border-radius: none;
-    box-shadow: none;
-}
+
 
 .order__enabled {
     padding: 32px;

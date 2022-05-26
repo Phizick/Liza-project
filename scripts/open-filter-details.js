@@ -17,9 +17,8 @@ checkedItems.forEach((item) =>
     })
 );
 
-const firstCh = document.querySelector(".sidebar-content__order-item");
-firstCh.classList.add("sidebar-content__order-item_var");
-
+document.querySelector(".sidebar-content__order-item").classList.add("sidebar-content__order-item_disabled");
+document.querySelector('.sidebar').classList.add("sidebar_disabled");
 resetAllBtn.addEventListener("click", () => {
     checkedGroupItems.forEach((item) => (item.checked = false));
     showCard();

@@ -2,4 +2,5 @@
   background-color: var(--orange);
   border: 1.2px solid var(--orange);
   color: var(--white);
+  cursor: pointer;
 }
