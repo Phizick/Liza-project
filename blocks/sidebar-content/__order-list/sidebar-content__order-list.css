@@ -3,6 +3,16 @@
     list-style-type: none;
     margin-top: 32px;
     margin-bottom: 0;
+ 
+}
+
+.content_disabled {
+    padding: 0;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.order__enabled {
     padding: 32px;
     border-radius: 16px;
     box-shadow: 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);

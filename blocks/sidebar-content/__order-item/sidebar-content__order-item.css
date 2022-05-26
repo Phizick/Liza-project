@@ -6,4 +6,10 @@
 
 .sidebar-content__order-item:first-child {
     margin-top: 0;
+       
+}
+
+.sidebar-content__order-item_var {
+    border-top: none;
+    padding-top: 0;
 }
