@@ -2,7 +2,7 @@
   .button {
     box-sizing: border-box;
     width: 184px;
-    height: 48px;
+    
     background-color: var(--white);
     color: var(--white);
     border-radius: 16px;
