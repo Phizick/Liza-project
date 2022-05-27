@@ -5,7 +5,7 @@
     outline: none;
     border: 0;
     border-radius: 16px;
-    background: #9397A3;
+    background: var(--silver);
 }
 
 .range::-moz-range-track {
@@ -15,7 +15,7 @@
     border: 0;
     height: 6px;
     border-radius: 16px;
-    background: -webkit-linear-gradient(left, var(--orange) 0%, var(--orange) 0%, #9397A3 0%, #9397A3);
+    background: -webkit-linear-gradient(left, var(--orange) 0%, var(--orange) 0%, var(--silver) 0%, var(--silver));
 }
 
 .range::-webkit-slider-thumb {

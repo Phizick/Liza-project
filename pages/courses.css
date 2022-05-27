@@ -53,6 +53,7 @@
 @import url(../blocks/sidebar/_disabled/sidebar_disabled.css);
 @import url(../blocks/sidebar-content/__deselect-option/sidebar-content__deselect-option.css);
 @import url(../blocks/sidebar-content/__order-item/_disabled/sidebar-content__order-item_disabled.css);
+@import url(../blocks/sidebar-content/__order-list/_enabled/sidebar-content__order-list_enabled.css);
 
 @import url(../blocks/card-list/card-list.css);
 @import url(../blocks/card-list/__base/card-list__base.css);

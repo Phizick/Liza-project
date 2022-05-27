@@ -5,7 +5,7 @@
     font-size: 18px;
     line-height: 133%;
     padding: 0px 8px;
-    background: #E6E7EB;
+    background: var(--bone);
     border-radius: 16px;
 	margin: 0;
 	margin-block-start: 0;

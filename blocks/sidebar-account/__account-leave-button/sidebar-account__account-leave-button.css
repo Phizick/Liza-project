@@ -9,9 +9,9 @@
 	width: 100%;
 	max-width: 247px;
 	height: 48px;
-	background-color: #fff;
-	color: #ff6600;
-	border: 1.2px solid #e6e7eb;
+	background-color: var(--white);
+	color: var(--orange);
+	border: 1.2px solid var(--bone);
 	box-sizing: border-box;
 	transition-property: box-shadow;
 	transition-timing-function: linear;
@@ -20,8 +20,8 @@
 
 .sidebar-account__account-leave-button:hover {
 	cursor: pointer;
-	box-shadow: 1px 1px 5px 1px #e6e7eb;
-	border: 1px #ff6600 solid;
+	box-shadow: 1px 1px 5px 1px var(--bone);
+	border: 1px var(--orange) solid;
 	transform: scale(1.008);
 }
 

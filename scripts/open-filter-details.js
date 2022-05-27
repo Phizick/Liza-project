@@ -1,15 +1,8 @@
-// const filterBlockHead = document.querySelectorAll(".sidebar-content__filter-block-head");
 const checkedItems = document.querySelectorAll(".sidebar-content__checkbox-options");
 const checkedList = document.querySelector(".sidebar-content__checked-options-list");
-const checkedGroupItems = document.querySelectorAll(".aside__checkbox-options_group");
+const checkedGroupItems = document.querySelectorAll(".sidebar-content__checkbox-options_group");
 const resetAllBtn = document.querySelector(".sidebar-content__reset-button");
 
-// filterBlockHead.forEach(item => {
-// 	item.addEventListener("click", function (evt) {
-// 		// evt.stopPropagation();
-// 		// item.parentNode.classList.toggle("aside__filter-block_active");
-// 	});
-// });
 
 checkedItems.forEach((item) =>
     item.addEventListener("click", () => {
@@ -17,8 +10,11 @@ checkedItems.forEach((item) =>
     })
 );
 
+// исправление проблем совместимости с версткой предыдущего проекта
 document.querySelector(".sidebar-content__order-item").classList.add("sidebar-content__order-item_disabled");
 document.querySelector('.sidebar').classList.add("sidebar_disabled");
+document.querySelector('.sidebar-content__order-list').classList.add("sidebar-content__order-list_enabled");
+
 resetAllBtn.addEventListener("click", () => {
     checkedGroupItems.forEach((item) => (item.checked = false));
     showCard();
