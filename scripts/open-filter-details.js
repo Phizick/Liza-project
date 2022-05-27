@@ -14,6 +14,7 @@ checkedItems.forEach((item) =>
 document.querySelector(".sidebar-content__order-item").classList.add("sidebar-content__order-item_disabled");
 document.querySelector('.sidebar').classList.add("sidebar_disabled");
 document.querySelector('.sidebar-content__order-list').classList.add("sidebar-content__order-list_enabled");
+document.querySelector('.page').classList.add("page__compatibility");
 
 resetAllBtn.addEventListener("click", () => {
     checkedGroupItems.forEach((item) => (item.checked = false));

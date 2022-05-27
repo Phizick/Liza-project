@@ -2,7 +2,7 @@
 @import url(../vendor/fonts/fonts.css);
 @import url('../vendor/variables.css');
 
-@import url(../blocks/page/_compatibility/page_compatibility.css);
+@import url(../blocks/page/__compatibility/page__compatibility.css);
 @import url('../blocks/page/page.css');
 
 @import url(../blocks/header/header.css);
