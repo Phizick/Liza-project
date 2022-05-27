@@ -1,5 +1,4 @@
-.form__input-checkbox {
-    
+.form__input-checkbox {    
     background: url(../../../images/icons/checkbox-rectangle-black.svg) center / contain no-repeat;
     border-radius: 5px;
     flex-shrink: 0;

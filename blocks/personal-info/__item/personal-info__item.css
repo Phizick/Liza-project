@@ -7,7 +7,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 133%;
-	color: #9397a3;
+	color: var(--silver);
 }
 
 .personal-info__item::after {

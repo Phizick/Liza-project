@@ -1,11 +1,11 @@
 .video__loading {
     width: 468px;
-    background: -webkit-linear-gradient(left, var(--orange) 0%, var(--orange) 0%, #9397A3 0%, #9397A3);
+    background: -webkit-linear-gradient(left, var(--orange) 0%, var(--orange) 0%, var(--silver) 0%, var(--silver));
 }
 
 .video__loading::-moz-range-track {
     width: 468px;
-    background: -webkit-linear-gradient(left, var(--orange) 0%, var(--orange) 0%, #9397A3 0%, #9397A3);
+    background: -webkit-linear-gradient(left, var(--orange) 0%, var(--orange) 0%, var(--silver) 0%, var(--silver));
 }
 
 @media screen and (max-width: 800px) {

@@ -7,12 +7,12 @@
 	padding: 12px 16px;
 	box-sizing: border-box;
 	border: none;
-	outline: 1.2px solid #e6e7eb;
+	outline: 1.2px solid var(--bone);
 	border-radius: 16px;
 }
 
 .personal-info__input:focus {
-	outline: 1.2px solid #ff6600;
+	outline: 1.2px solid var(--orange);
 }
 
 .personal-info__input:invalid:required {
