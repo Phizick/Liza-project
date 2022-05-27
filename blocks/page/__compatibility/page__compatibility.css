@@ -1,4 +1,4 @@
-.page_compatibility {
+.page__compatibility {
 	display: grid;
 	grid-template-columns: 36px minmax(min-content, calc(25% - 48px)) minmax(min-content, 75%) 36px;
 	grid-template-areas:
@@ -15,7 +15,7 @@
 }
 
 @media (max-width: 1184px) {
-	.page_compatibility {
+	.page__compatibility {
 		grid-template-columns:
 			1px minmax(min-content, calc(25%)) minmax(min-content, 75%) 1px;
 		grid-template-areas:
@@ -26,7 +26,7 @@
 }
 
 @media (max-width: 1024px) {
-	.page_compatibility {
+	.page__compatibility {
 		grid-template-columns: 12px 1fr 12px;
 		grid-template-areas:
 			"header header header"
