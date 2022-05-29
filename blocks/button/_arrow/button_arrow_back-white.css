@@ -2,6 +2,6 @@
   background-image: url('../../../images/icons/');
   background-repeat: no-repeat;
   background-position: 50px center;
-  border: 1.2px solid #E6E7EB;
+  border: 1.2px solid var(--bone);
   padding: 12px 48px 12px 80px;
 }

@@ -1,7 +1,7 @@
 .form {
     width: 100%;
     padding-bottom: 33px;
-    border-bottom: 1px solid #E6E7EB;
+    border-bottom: 1px solid var(--bone);
 }
 
 .form:last-of-type {

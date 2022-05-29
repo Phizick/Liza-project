@@ -3,6 +3,6 @@
 }
 
 .card-list__button_registration:hover {
-	background-color: #f06000;
+	background-color: var(--orange);
 	transform: scale(1.008);
 }

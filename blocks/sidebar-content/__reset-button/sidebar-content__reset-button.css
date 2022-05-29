@@ -8,7 +8,7 @@
     font-style: normal;
     line-height: 1.33;
     border: none;
-	color:black;
+	color: var(--black);
 	width: fit-content;
 }
 

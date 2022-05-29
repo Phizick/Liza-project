@@ -1,5 +1,5 @@
 .sidebar {
-	grid-area: sidebar-left;
+	grid-area: sidebar;
 	width: 100%;
 	height: max-content;
 }

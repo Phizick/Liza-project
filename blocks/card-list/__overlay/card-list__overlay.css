@@ -19,7 +19,7 @@
 
 .card-list__overlay:hover {
 	cursor: pointer;
-	box-shadow: 1px 1px 5px 1px #e6e7eb;
+	box-shadow: 1px 1px 5px 1px var(--bone);
 }
 
 @media (max-width: 1320px) {
