@@ -1,0 +1,8 @@
+.form__pseudo-item {
+    display: inline-block;
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    margin-right: 10px;
+}

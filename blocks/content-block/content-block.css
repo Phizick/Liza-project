@@ -1,0 +1,18 @@
+.content-block {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 4px rgb(231 232 235 / 60%), 0px 4px 16px rgb(231 232 235 / 60%);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+@media (max-width: 430px) {
+    .content-block {
+        border-radius: 0 0 16px 16px;
+    }
+}

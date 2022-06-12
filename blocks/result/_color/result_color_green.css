@@ -1,0 +1,5 @@
+.result_color_green {
+  background: var(--green-opacity);
+  border: 1.2px solid var(--green-border);
+  border-radius: 16px;
+}

@@ -1,0 +1,10 @@
+.sidebar-content__order-item {
+    border-top: 1px solid var(--bone);
+    padding-top: 33px;
+    margin-top: 32px;
+}
+
+.sidebar-content__order-item:first-child {
+    margin-top: 0;       
+}
+

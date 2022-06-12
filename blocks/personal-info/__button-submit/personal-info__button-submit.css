@@ -1,0 +1,23 @@
+.personal-info__button-submit {
+	margin: 0 auto;
+	width: 246px;
+	padding: 12px 24px;
+	box-sizing: border-box;
+	border-radius: 16px;
+	background-color: var(--orange);
+	color: var(--white);
+	cursor: pointer;
+	transform: 2s linear;
+}
+
+.personal-info__button-submit:hover {
+	background-color: var(--peach);
+	transform: scale(1.008);
+}
+
+.personal-info__button-submit[disabled] {
+	background-color: var(--bone);
+	color: var(--silver);
+	cursor: auto;
+	transform: scale(1);
+}

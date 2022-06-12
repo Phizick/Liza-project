@@ -1,0 +1,8 @@
+.video__play-btn {
+    cursor: pointer;
+	transition: .3s;
+}
+
+.video__play-btn:hover {
+	opacity: .8;
+}

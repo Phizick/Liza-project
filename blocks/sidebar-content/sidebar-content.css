@@ -1,0 +1,15 @@
+.sidebar-content {
+    background: var(--white);
+    box-sizing: border-box;
+    max-width: 424px;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 0 4px rgba(231, 232, 235, 0.6), 0 4px 16px rgba(231, 232, 235, 0.6);
+}
+
+@media screen and (max-width: 1400px) {
+    .sidebar-content {
+        max-width: 100%;
+        width: 100%;
+    }
+}

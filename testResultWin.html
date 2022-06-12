@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="This is courses web-page" />
+        <title>Учебная платформа/Тест</title>
+        <link rel="stylesheet" href="./pages/testResultWin.css" type="text/css" />
+    </head>
+    <body class="page">
+        <header class="header">
+            <a class="header__link" target="_blank" href="./index.html">Учебная платформа</a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="./courses.html"> <img class="menu__icon" src="./images/icons/logo_courses.svg" alt="Курсы" />Курсы </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link menu__link_active" href="./account.html"> <img class="menu__icon" src="./images/icons/logo_profile.svg" alt="Профиль" />Профиль </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <nav class="breadcrumbs">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">
+                        <span class="breadcrumbs__text">Курсы</span>
+                        <div class="breadcrumbs__image"></div>
+                    </a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">
+                        <span class="breadcrumbs__text">Кинологическое направление</span>
+                        <div class="breadcrumbs__image"></div>
+                    </a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">
+                        <span class="breadcrumbs__text">
+                            5. Работа «второго номера» совместно со следовым кинологическим расчётом
+                        </span>
+                        <div class="breadcrumbs__image"></div>
+                    </a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">
+                        <span class="breadcrumbs__text">Тест</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <main class="content">
+            <div class="content-wrapper">
+                <section class="content-block">
+                    <div class="content-block__header">
+                        <h1 class="content-block__title">Тест</h1>
+                        <button type="button" aria-label="Вернуться к тесту" class="content-block__button-header" onclick="document.location='testAbout.html'">
+                            Посмотреть&nbsp;условия
+                        </button>
+                    </div>
+                    <form action="#" class="form">
+                        <p class="form__question-title">1. В каких случаях перспективно применение следовых кинологических расчётов?</p>
+                        <label for="questionOne" class="form__input-label form__input-label_cursor-non">
+                            <input type="checkbox" name="question__first" class="form__input form__input-checkbox" id="questionOne" disabled />
+                            <span class="form__pseudo-item form__input-checkbox form__input-checkbox_style_correct" id="iconOne"></span>
+                            <span class="form__input-pseudo-text" id="textOne">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+                        </label>
+                        <label for="questionTwo" class="form__input-label form__input-label_cursor-non">
+                            <input type="checkbox" name="question__first" class="form__input form__input-checkbox" id="questionTwo" disabled />
+                            <span class="form__pseudo-item form__input-checkbox form__input-checkbox_style_correct" id="iconTwo"></span>
+                            <span class="form__input-pseudo-text" id="textTwo">Обучение животного идти как по горячему, так и по остывшему следу</span>
+                        </label>
+                        <label for="questionThree" class="form__input-label form__input-label_cursor-non">
+                            <input type="checkbox" name="question__first" class="form__input form__input-checkbox" id="questionThree" disabled />
+                            <span class="form__pseudo-item form__input-checkbox form__input-checkbox_style_correct" id="iconThree"></span>
+                            <span class="form__input-pseudo-text" id="textThree">Поиск тел и их остатков с применением специально обученных собак</span>
+                        </label>
+                    </form>
+                    <form action="#" class="form">
+                        <p class="form__question-title">2. С какого возраста следует начинать дрессировку по курсу ПСС?</p>
+                        <label for="questionFour" class="form__input-label form__input-label_cursor-non">
+                            <input type="radio" class="form__input" name="question" id="questionFour" disabled />
+                            <span class="form__pseudo-item form__input-radio form__input-radio_style_fail"></span>
+                            <span class="form__input-pseudo-text">6 месяцев</span>
+                        </label>
+                        <label for="questionFive" class="form__input-label form__input-label_cursor-non">
+                            <input type="radio" class="form__input" name="question" id="questionFive" disabled />
+                            <span class="form__pseudo-item form__input-radio form__input-radio_style_correct-active"></span>
+                            <span class="form__input-pseudo-text form__input-pseudo-text_style_correct">1–1,5 года</span>
+                        </label>
+                        <label for="questionSix" class="form__input-label form__input-label_cursor-non">
+                            <input type="radio" class="form__input" name="question" id="questionSix" disabled />
+                            <span class="form__pseudo-item form__input-radio form__input-radio_style_fail"></span>
+                            <span class="form__input-pseudo-text">3 года</span>
+                        </label>
+                    </form>
+                    <div class="result result_color_green">
+                        <h2 class="result__title result__title_color_green">83%</h2>
+                        <p class="result__subtitle result__subtitle_color_green">
+                            Отличный результат!
+                        </p>
+                        <p class="result__subtitle result__subtitle_color_green">
+                            Нажите «Далее» чтобы продолжить. Если считаете, что сможете лучше, нажмите «Пересдать». В случае если результат будет хуже, засчитается наивысший результат.
+                        </p>
+                    </div>
+                    <button type="button" aria-label="Пересдать." class="button button_arrow_circle-orang button_text_orang">Пересдать</button>
+                </section>
+                <div class="buttons">
+                    <button type="button" aria-label="Предыдущая страница." class="button button_arrow_back-orang button_text_orang" onclick="document.location='testInwork.html'">
+                        Назад
+                    </button>
+                    <button type="button" aria-label="Следующая страница." class="button button_color_orang button_arrow_forward-white" onclick="document.location='testCompleetWin.html'">
+                        Далее
+                    </button>
+                </div>
+            </div>
+            <aside class="sidebar-content">
+                <h2 class="sidebar-content__title">Содержание</h2>
+                <ol class="sidebar-content__order-list">
+                    <li class="sidebar-content__order-item">
+                        <div class="sidebar-content__order-body">
+                            <p class="sidebar-content__order-text">
+                                1. В каких случаях перспективно применение следовых кинологических расчётов
+                            </p>
+                            <div class="sidebar-content__order-icon"></div>
+                        </div>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_lesson"></div>
+                                <p class="sidebar-content__under-text">Урок</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <div class="sidebar-content__order-body">
+                            <p class="sidebar-content__order-text">
+                                2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)
+                            </p>
+                            <div class="sidebar-content__order-icon"></div>
+                        </div>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_lesson"></div>
+                                <p class="sidebar-content__under-text">Урок</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <div class="sidebar-content__order-body">
+                            <p class="sidebar-content__order-text">
+                                3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия
+                            </p>
+                            <div class="sidebar-content__order-icon sidebar-content__order-icon_active"></div>
+                        </div>
+                        <ul class="sidebar-content__under-list sidebar-content__under-list_visible">
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Урок</p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Вебинар</p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Урок</p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Видео</p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Тест</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <div class="sidebar-content__order-body">
+                            <p class="sidebar-content__order-text">
+                                4. Корректная постановка задачи кинологу и особенности её исполнения Вебинар
+                            </p>
+                            <div class="sidebar-content__order-icon sidebar-content__order-icon_active"></div>
+                        </div>
+                        <ul class="sidebar-content__under-list sidebar-content__under-list_visible">
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Вебинар</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <div class="sidebar-content__order-body">
+                            <p class="sidebar-content__order-text">
+                                5. Работа «второго номера» совместно со следовым кинологическим расчётом
+                            </p>
+                            <div class="sidebar-content__order-icon sidebar-content__order-icon_active"></div>
+                        </div>
+                        <ul class="sidebar-content__under-list sidebar-content__under-list_visible">
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">
+                                    Дрессировка поисково-спасательных собак
+                                </p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Вебинар</p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">Урок</p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_ok"></div>
+                                <p class="sidebar-content__under-text">
+                                    Видео
+                                </p>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_test-target"></div>
+                                <p class="sidebar-content__under-text sidebar-content__under-text_color-target">Тест</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <div class="sidebar-content__order-body">
+                            <p class="sidebar-content__order-text">
+                                6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы
+                            </p>
+                            <div class="sidebar-content__order-icon"></div>
+                        </div>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_lesson"></div>
+                                <p class="sidebar-content__under-text">Урок</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <div class="sidebar-content__order-body">
+                            <p class="sidebar-content__order-text">
+                                7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков
+                            </p>
+                            <div class="sidebar-content__order-icon"></div>
+                        </div>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item">
+                                <div class="sidebar-content__under-icon sidebar-content__under-icon_status_lesson"></div>
+                                <p class="sidebar-content__under-text">Урок</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </aside>
+        </main>
+        <script src="scripts/index.js" defer></script>
+        <script src="scripts/testInwork.js" defer></script>
+        <script src="scripts/test.js"></script>
+    </body>
+</html>

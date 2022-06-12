@@ -1,0 +1,16 @@
+.menu__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+@media (max-width: 590px) {
+	.menu__list {
+		align-items: center;
+	}
+}
+

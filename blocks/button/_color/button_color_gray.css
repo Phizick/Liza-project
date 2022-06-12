@@ -1,0 +1,4 @@
+.button_color_gray {
+  background-color: rgb(230, 231, 235);
+  border: 1.2px solid var(--bone);
+}

@@ -1,0 +1,8 @@
+.form__input-pseudo-text {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+}

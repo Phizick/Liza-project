@@ -1,0 +1,18 @@
+.sidebar-content__reset-button {
+	display: none;
+	padding: 0;
+    margin: 0;
+    font-family: Golos, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.33;
+    border: none;
+	color: var(--black);
+	width: fit-content;
+}
+
+.sidebar-content__reset-button:hover {
+    opacity: 1;
+    border: none;
+  }

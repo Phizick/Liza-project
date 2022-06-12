@@ -1,0 +1,9 @@
+.content {
+    margin: 0 auto;
+    margin-bottom: 97px;
+    flex-wrap: wrap;
+    max-width: 1320px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

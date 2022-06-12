@@ -1,0 +1,12 @@
+.video {
+	padding: 0 32px 32px 32px;
+	display: grid;
+	align-content: flex-end;
+	box-sizing: border-box;
+	background-size: cover;
+	background: url('../../images/video_background_img.jpeg') center center / cover no-repeat;
+	width: 100%;
+	min-height: 456px;
+	border-radius: 8px;
+	box-shadow: 0 0 4px rgba(233, 234, 237, 0.6), 0 4px 16px rgba(233, 234, 237, 0.4);
+}

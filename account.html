@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="This is an account web-page" />
+        <title>Профиль</title>
+        <link rel="stylesheet" href="./pages/account.css" />
+        <script src="https://unpkg.com/imask" defer></script>
+    </head>
+    <body class="page page__compatibility">
+		<header class="header">
+            <a class="header__link" target="_blank" href="./index.html">Учебная платформа</a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="./courses.html"> <img class="menu__icon" src="./images/icons/logo_courses.svg" alt="Курсы" />Курсы </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link menu__link_active" href="./account.html"> <img class="menu__icon" src="./images/icons/logo_profile_active.svg" alt="Профиль" />Профиль </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="page-title">Профиль</h1>
+        <aside class="sidebar sidebar-account">
+            <div class="sidebar-account__core-content">
+                <img class="sidebar-account__image" onerror=" src='./images/default.jpg' " src="#" alt="Аватар пользователя" />
+                <h2 class="sidebar-account__title">#</h2>
+            </div>
+
+            <ul class="parameters">
+                <li class="parameters__list-item">
+                    <img class="parameters__icon" src="./images/logo_sidebar_professional.svg" alt="Иконка-статус пользователя" />
+                    <h3 class="parameters__heading">Профессионал</h3>
+                </li>
+                <li class="parameters__list-item">
+                    <img class="parameters__icon" src="./images/logo_sidebar_kartograf.svg" alt="Иконка-профессия пользователя" />
+                    <h3 class="parameters__heading">Картограф</h3>
+                </li>
+                <li class="parameters__list-item">
+                    <img class="parameters__icon" src="./images/logo_sidebar_course.svg" alt="Иконка-курсы пользователя" />
+                    <h3 class="parameters__heading">Пройдено 2 курса</h3>
+                </li>
+            </ul>
+
+            <button id="account-leave-button" class="button sidebar-account__account-leave-button" type="button">
+                <img class="sidebar-account__account-leave-button-icon" src="./images/sidebar_leave-account.svg" alt="Выйти из аккаунта" />Выйти из аккаунта
+            </button>
+        </aside>
+        <main class="personal-info">
+            <form class="personal-info__form" name="account-form">
+                <h2 class="personal-info__title">Личные данные</h2>
+                <ul class="personal-info__list">
+                    <li class="personal-info__item">
+                        <label for="form-name" class="personal-info__label-text">
+                            ФИО
+                        </label>
+                        <input type="text" name="form-name" id="form-name" class="personal-info__input" value="Иванова Анна Сидоровна" maxlength="30" required />
+                    </li>
+                    <li class="personal-info__item">
+                        <label for="form-birth" class="personal-info__label-text">
+                            Дата рождения
+                        </label>
+                        <input type="text" name="form-birth" id="form-birth" class="personal-info__input personal-info__input_date" value="01-01-1991" required />
+                    </li>
+                    <li class="personal-info__item">
+                        <label for="form-region" class="personal-info__label-text">
+                            Географический регион
+                        </label>
+                        <input type="text" name="form-region" id="form-region" class="personal-info__input" value="г. Санкт-Петербург" required />
+                    </li>
+                    <li class="personal-info__item">
+                        <label for="form-nickname" class="personal-info__label-text">
+                            Позывной на форуме
+                        </label>
+                        <input type="text" name="form-nickname" id="form-nickname" class="personal-info__input" value="Белка" required />
+                    </li>
+                    <li class="personal-info__item personal-info__item_photo">
+                        <label for="form-avatar" class="personal-info__label-text">
+                            Фото
+                        </label>
+                        <input type="text" name="form-avatar" id="form-avatar" class="personal-info__input personal-info__input_file" value="photo.jpg" pattern=".+.jpg" readonly />
+                    </li>
+                </ul>
+                <button type="submit" class="button personal-info__button-submit button_color_gray button_notactive" disabled>Сохранить&nbsp;изменения</button>
+            </form>
+            <div class="disclaimer-info">
+                <p class="disclaimer-info__text">Просьба указывать настоящие ФИО, это нужно для получения сертификатов</p>
+                <p class="disclaimer-info__text">Географический регион влияет на доступность некоторых курсов и занятий</p>
+                <p class="disclaimer-info__text">Если вы не хотите, чтобы другие пользователи видели ваши ФИО, укажите позывной на форуме — он будет отображаться вместо ваших настоящих данных</p>
+                <p class="disclaimer-info__text">Требования к загружаемому фото:</p>
+                <ul class="disclaimer-info__list">
+                    <li class="disclaimer-info__list-item">разрешение не менее 640x640px</li>
+                    <li class="disclaimer-info__list-item">размер не более 3 МБ</li>
+                </ul>
+            </div>
+            <form action="#" class="personal-info__form" name="personal-form">
+                <h2 class="personal-info__title">Аккаунт</h2>
+                <ul class="personal-info__list">
+                    <li class="personal-info__item personal-info__item_tel">
+                        <label for="form-phone" class="personal-info__label-text">
+                            Номер телефона
+                        </label>
+                        <input type="tel" name="form-phone" id="form-phone" class="personal-info__input" placeholder="+7 123 456 78 90" readonly />
+                    </li>
+                    <li class="personal-info__item">
+                        <label for="form-email" class="personal-info__label-text">
+                            Email
+                        </label>
+                        <input type="email" name="form-email" id="form-email" class="personal-info__input" value="anna@liza-alert.ru" required />
+                    </li>
+                    <li class="personal-info__item">
+                        <label for="form-password" class="personal-info__label-text">
+                            Пароль
+                        </label>
+                        <input type="password" name="form-password" id="form-password" class="personal-info__input" value="Белочка" required />
+                    </li>
+                </ul>
+                <button type="submit" class="button personal-info__button-submit button_color_gray button_notactive" disabled>Сохранить&nbsp;изменения</button>
+            </form>
+            <div class="disclaimer-info">
+                <p class="disclaimer-info__text">Номер телефона используется как уникальный идентификатор пользователя, поэтому его нельзя поменять вручную</p>
+                <p class="disclaimer-info__text">Если по какой-то причине у вас нет доступа к номеру телефона на который вы регистрировали аккаунт, напишите в поддержку</p>
+                <p class="disclaimer-info__text">Email нужен для восстановления пароля</p>
+            </div>
+        </main>
+        <script src="./scripts/account.js" defer></script>
+    </body>
+</html>

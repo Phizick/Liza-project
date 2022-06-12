@@ -1,0 +1,28 @@
+.sidebar-content__order-text {
+    margin: 0;
+    max-width: 328px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+	transition: .3s;
+}
+
+.sidebar-content__order-text:hover {
+	opacity: .8;
+}
+
+@media screen and (max-width: 1400px) {
+    .sidebar-content__order-text {
+        width: auto;
+        max-width: initial;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .sidebar-content__order-text {
+        max-width: 230px;
+    }
+}

@@ -1,0 +1,14 @@
+:root {
+	--white: #ffffff;
+	--black: #212329;
+	--silver: #9397A3;
+	--orange: #FF6600;
+	--green: #008000;
+	--green-opacity: rgba(0, 128, 0, 0.12);
+	--green-border: rgba(0,128,0,0.6);
+	--red: #FF0000;
+	--red-opacity: rgba(255, 0, 0, 0.12);
+	--red-border: rgba(255, 0, 0, 0.6);
+	--peach: #f06000;
+	--bone: #e6e7eb;
+}

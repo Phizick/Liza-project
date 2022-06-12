@@ -1,0 +1,5 @@
+.sidebar-content__filter-form {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;	
+}

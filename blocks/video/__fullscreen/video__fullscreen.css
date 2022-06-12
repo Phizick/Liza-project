@@ -1,0 +1,14 @@
+.video__fullscreen {
+    cursor: pointer;
+	transition: .3s;
+}
+
+.video__fullscreen:hover {
+	opacity: .8;
+}
+
+@media screen and (max-width: 800px) {
+    .video__fullscreen {
+        margin-top: 20px;
+    }
+}

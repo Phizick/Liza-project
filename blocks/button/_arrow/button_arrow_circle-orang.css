@@ -1,0 +1,8 @@
+.button_arrow_circle-orang {
+  width: 176px;
+  background-image: url('../../../images/icons/circulation_orng.svg');
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  border: 1.2px solid var(--bone);
+  padding: 12px 24px 12px 56px;
+}

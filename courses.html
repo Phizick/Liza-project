@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="This is courses web-page" />
+        <title>Курсы</title>
+        <link rel="stylesheet" href="./pages/courses.css" />
+    </head>
+    <body class="page">
+        <header class="header">
+            <a class="header__link" target="_blank" href="./index.html">Учебная платформа</a>
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a id="courses-page-link" class="menu__link menu__link_active" href="./courses.html"> <img class="menu__icon" src="./images/logo_courses_active.svg" alt="Курсы" />Курсы </a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a class="menu__link" href="./account.html"> <img class="menu__icon" src="./images/logo_profile.svg" alt="Профиль" />Профиль </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <h1 class="page-title">Курсы</h1>
+        <main class="articles">
+            <ul class="card-list"></ul>
+        </main>
+        <aside class="sidebar-content sidebar">
+            <form class="sidebar-content__filter-form" action="#" method="get" name="filter-form">
+                <div class="sidebar-content__form-head">
+                    <h2 class="sidebar-content__title">Фильтры</h2>
+                    <button class="button sidebar-content__reset-button" type="reset">Очистить</button>
+                </div>
+                <ul class="sidebar-content__order-list">
+                    <li class="sidebar-content__order-item">
+                        <a class="sidebar-content__order-body">
+                            <h3 class="sidebar-content__order-text">Категория</h3>
+                            <div class="sidebar-content__order-icon"></div>
+                        </a>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item"></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <a class="sidebar-content__order-body">
+                            <h3 class="sidebar-content__order-text">Тематика</h3>
+                            <div class="sidebar-content__order-icon"></div>
+                        </a>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item"></li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <a class="sidebar-content__order-body">
+                            <h3 class="sidebar-content__order-text">Уровень</h3>
+                            <div class="sidebar-content__order-icon"></div>
+                        </a>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item" data-level="level">
+                                <label class="sidebar-content__checkbox" for="level-new">
+                                    <input class="sidebar-content__checkbox-options" type="checkbox" value="Новичок" name="level-new" id="level-new" data-level="Уровень" />
+                                    <span class="sidebar-content__checkbox-pseudo"></span>
+                                    <span class="sidebar-content__checkbox-label">Новичок</span>
+                                </label>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <label class="sidebar-content__checkbox" for="level-experienced">
+                                    <input class="sidebar-content__checkbox-options" type="checkbox" value="Бывалый" name="level-experienced" id="level-experienced" data-level="Уровень" />
+                                    <span class="sidebar-content__checkbox-pseudo"></span>
+                                    <span class="sidebar-content__checkbox-label">Бывалый</span>
+                                </label>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <label class="sidebar-content__checkbox" for="level-professional">
+                                    <input class="sidebar-content__checkbox-options" type="checkbox" value="Профессионал" name="level-professional" id="level-professional" data-level="Уровень" />
+                                    <span class="sidebar-content__checkbox-pseudo"></span>
+                                    <span class="sidebar-content__checkbox-label">Профессионал</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-content__order-item">
+                        <a class="sidebar-content__order-body">
+                            <h3 class="sidebar-content__order-text">Статус</h3>
+                            <div class="sidebar-content__order-icon"></div>
+                        </a>
+                        <ul class="sidebar-content__under-list">
+                            <li class="sidebar-content__under-item">
+                                <label class="sidebar-content__checkbox" for="status-inactive">
+                                    <input
+                                        class="sidebar-content__checkbox-options sidebar-content__checkbox-options_group"
+                                        type="checkbox"
+                                        value="Не активный"
+                                        name="status-inactive"
+                                        id="status-inactive"
+                                        data-status="Статус"
+                                        data-btn="Не активный"
+                                    />
+                                    <span class="sidebar-content__checkbox-pseudo"></span>
+                                    <span class="sidebar-content__checkbox-label">Не активный</span>
+                                </label>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <label class="sidebar-content__checkbox" for="status-registration">
+                                    <input class="sidebar-content__checkbox-options" type="checkbox" value="Вы записаны" name="status-registration" id="status-registration" data-status="Статус" data-btn="Вы записаны" />
+                                    <span class="sidebar-content__checkbox-pseudo"></span>
+                                    <span class="sidebar-content__checkbox-label">Вы записаны</span>
+                                </label>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <label class="sidebar-content__checkbox" for="status-passed">
+                                    <input
+                                        class="sidebar-content__checkbox-options sidebar-content__checkbox-options_group"
+                                        type="checkbox"
+                                        value="Активный"
+                                        name="status-passed"
+                                        id="status-passed"
+                                        data-status="Статус"
+                                        data-btn="Активный"
+                                    />
+                                    <span class="sidebar-content__checkbox-pseudo"></span>
+                                    <span class="sidebar-content__checkbox-label">Активный</span>
+                                </label>
+                            </li>
+                            <li class="sidebar-content__under-item">
+                                <label class="sidebar-content__checkbox" for="status-active">
+                                    <input class="sidebar-content__checkbox-options" type="checkbox" value="Пройден" name="status-active" id="status-active" data-status="Статус" data-btn="Пройден" />
+                                    <span class="sidebar-content__checkbox-pseudo"></span>
+                                    <span class="sidebar-content__checkbox-label">Пройден</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </form>
+            <ul class="sidebar-content__checked-options-list"></ul>
+        </aside>
+        <template id="cardTemplate">
+            <div class="card-list__base">
+                <a class="card-list__overlay" href="#" target="_blank">
+                    <img src="#" alt="№" class="card-list__image" />
+                    <div class="card-list__description">
+                        <h2 class="card-list__heading"></h2>
+                        <span class="card-list__tier"></span>
+                        <p class="card-list__info"></p>
+                    </div>
+                    <div class="card-list__timing">
+                        <div class="card-list__timing-item">
+                            <img class="card-list__icon" src="./images/articles_book.svg" alt="книга" />
+                            <p class="card-list__time" id="lessons"></p>
+                        </div>
+                        <div class="card-list__timing-item">
+                            <img class="card-list__icon" src="./images/articles_clock.svg" alt="часы" />
+                            <p class="card-list__time" id="time"></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="button card-list__button"></a>
+            </div>
+        </template>
+        <template class="checked-item-template">
+            <li class="sidebar-content__checked-item">
+                <div class="sidebar-content__deselect-option">
+                    <p class="sidebar-content__name-checked-option"></p>
+                    <button class="button sidebar-content__deselect-button" type="button">
+                        <img src="./images/sidebar_delete-option.svg" alt="удалить" />
+                    </button>
+                </div>
+            </li>
+        </template>
+        <script src="./scripts/open-filter-details.js" defer></script>
+        <script src="./scripts/initial-cards.js" defer></script>
+        <script src="./scripts/courses.js" defer></script>
+        <script src="./scripts/index.js" defer></script>
+    </body>
+</html>

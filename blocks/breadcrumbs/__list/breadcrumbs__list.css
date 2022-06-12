@@ -1,0 +1,12 @@
+.breadcrumbs__list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	/* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 1400px) {
+	.breadcrumbs__list {
+		flex-wrap: wrap;
+	}
+}

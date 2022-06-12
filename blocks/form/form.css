@@ -1,0 +1,11 @@
+.form {
+    width: 100%;
+    padding-bottom: 33px;
+    border-bottom: 1px solid var(--bone);
+}
+
+.form:last-of-type {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

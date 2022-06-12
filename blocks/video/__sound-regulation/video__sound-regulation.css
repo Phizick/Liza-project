@@ -1,0 +1,5 @@
+.video__sound-regulation {
+    margin-left: 8px;
+    width: 100px;
+    background: -webkit-linear-gradient(left, var(--orange) 0%, var(--orange) 60%, var(--silver) 60%, var(--silver));
+}

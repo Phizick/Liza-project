@@ -1,0 +1,10 @@
+.sidebar-content__checked-item {
+	margin: 0 10px 10px 0;
+	padding: 0;
+	background-color: var(--bone);
+	border-radius: 16px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}

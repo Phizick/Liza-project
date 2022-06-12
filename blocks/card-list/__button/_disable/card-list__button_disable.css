@@ -1,0 +1,9 @@
+.card-list__button_disable {
+	background-color: var(--bone);
+	color: var(--silver);
+}
+
+
+.card-list__button_disable:hover {
+	cursor: default;
+}

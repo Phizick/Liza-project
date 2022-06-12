@@ -1,0 +1,9 @@
+.sidebar-content__title {
+    margin: 0;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--black);
+}

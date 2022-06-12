@@ -1,0 +1,8 @@
+.video__sound-btn {
+    cursor: pointer;
+	transition: .3s;
+}
+
+.video__sound-btn:hover {
+	opacity: .8;
+}

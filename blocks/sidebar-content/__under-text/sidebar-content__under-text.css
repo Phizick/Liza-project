@@ -1,0 +1,14 @@
+.sidebar-content__under-text {
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.sidebar-content__under-text:first-child {
+    margin-top: 0;
+}

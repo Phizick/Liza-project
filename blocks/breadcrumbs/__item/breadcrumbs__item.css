@@ -1,0 +1,22 @@
+.breadcrumbs__item {
+	list-style: none;
+	display: block;
+	color: var(--black);
+	overflow: hidden;
+	flex-shrink: 0;
+}
+
+.breadcrumbs__item:last-child {
+	color: var(--silver);
+}
+
+.breadcrumbs__item:nth-last-child(2) {
+	min-width: 200px;
+	flex-shrink: 1;
+}
+
+@media screen and (max-width: 1400px) {
+	.breadcrumbs__item {
+		flex-shrink: 1;
+	}
+}

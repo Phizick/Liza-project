@@ -1,0 +1,6 @@
+.form__input-label {
+	cursor: pointer;
+	display: flex;
+	align-items: flex-start;
+	margin-top: 16px;
+}

@@ -1,0 +1,5 @@
+.form__input-radio {
+    background: url(../../../images/icons/radio-circle-black.svg) center / contain no-repeat;
+    border-radius: 5px;
+    flex-shrink: 0;
+}

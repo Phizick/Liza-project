@@ -1,0 +1,17 @@
+.sidebar-content__deselect-button {
+  padding-right: 2px;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: inherit;
+	border: none;
+	width:fit-content;
+	height: fit-content;
+}
+
+.sidebar-content__deselect-button:hover {
+  opacity: 1;
+  border: none;
+}

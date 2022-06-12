@@ -1,0 +1,5 @@
+.result_color_rose {
+  background: var(--red-opacity);
+  border: 1.2px solid var(--red-border);
+  border-radius: 16px;
+}
